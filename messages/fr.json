@@ -16,7 +16,8 @@
   "Footer": {
     "tagline": "Automatisation des opérations comptables. Autohébergé. Construit une fois.",
     "copyright": "© {year} ComptaZen. Québec, Canada.",
-    "email": "info@comptazen.digital"
+    "email": "info@comptazen.digital",
+    "privacyLink": "Politique de confidentialité"
   },
   "Home": {
     "meta": {
@@ -184,8 +185,10 @@
       "businessName": "Nom de l'entreprise",
       "email": "Courriel",
       "painQuestion": "Quel est le processus manuel le plus pénible dans votre comptabilité en ce moment?",
+      "consent": "J'accepte la <privacyLink>Politique de confidentialité</privacyLink> et je consens à ce que ComptaZen recueille et utilise mes renseignements pour répondre à cette demande.",
       "submit": "Réserver mon appel de découverte gratuit",
       "sending": "Envoi en cours…",
+      "errorBody": "Une erreur est survenue lors de l'envoi de votre message. Veuillez réessayer, ou écrivez-nous directement à info@comptazen.digital.",
       "successTitle": "C'est noté.",
       "successBody": "On vous contactera sous peu pour réserver votre appel de découverte."
     },
@@ -303,5 +306,60 @@
       "totalLabel": "TOTAL",
       "note": "Les deux taxes sont calculées sur le sous-total, indépendamment l'une de l'autre — pas la TVQ appliquée par-dessus la TPS."
     }
+  },
+  "PrivacyPolicy": {
+    "meta": {
+      "title": "Politique de confidentialité — ComptaZen",
+      "description": "Comment ComptaZen recueille, utilise et protège vos renseignements personnels."
+    },
+    "kicker": "POLITIQUE DE CONFIDENTIALITÉ",
+    "h1": "Politique de confidentialité",
+    "updated": "Dernière mise à jour : 15 août 2026",
+    "sections": [
+      {
+        "title": "Qui nous sommes",
+        "body": "ComptaZen est une pratique d'automatisation comptable basée au Québec. Pour toute question sur cette politique ou sur vos renseignements personnels, écrivez-nous à info@comptazen.digital."
+      },
+      {
+        "title": "Ce que nous recueillons",
+        "body": "Notre formulaire de contact sur comptazen.digital recueille : votre nom, le nom de votre entreprise, votre adresse courriel, et ce que vous écrivez dans le champ « quel est le processus le plus pénible ». Nous ne recueillons rien d'autre par ce formulaire, et nous n'utilisons aucun témoin de suivi ni script d'analyse sur ce site."
+      },
+      {
+        "title": "Pourquoi nous le recueillons",
+        "body": "Nous utilisons ces renseignements dans un seul but : répondre à votre demande et, si vous décidez de poursuivre, planifier et préparer un appel de découverte. Nous ne les utilisons pas à des fins de marketing, nous ne les vendons pas, et nous ne les partageons avec personne, sauf le fournisseur de services décrit ci-dessous, strictement pour nous transmettre votre message."
+      },
+      {
+        "title": "Votre consentement",
+        "body": "En cochant la case du formulaire de contact avant de le soumettre, vous consentez à ce que nous recueillions et utilisions vos renseignements aux fins décrites ci-dessus. Vous pouvez retirer ce consentement en tout temps en écrivant à info@comptazen.digital — nous cesserons d'utiliser vos renseignements et les supprimerons, sauf si la loi nous oblige à les conserver."
+      },
+      {
+        "title": "Où vont vos renseignements",
+        "body": "Lorsque vous soumettez le formulaire, vos renseignements nous sont transmis par courriel via Resend, un service d'envoi de courriels basé aux États-Unis. Resend agit à titre de sous-traitant en vertu d'une entente écrite de traitement des données couvrant la confidentialité, la sécurité et la suppression de vos renseignements, avec des mesures contractuelles encadrant ce transfert hors Québec. Vos renseignements sont conservés sur les serveurs de Resend, aux États-Unis, seulement le temps nécessaire à l'acheminement du courriel, puis dans notre propre boîte courriel."
+      },
+      {
+        "title": "Durée de conservation",
+        "body": "Nous conservons les soumissions du formulaire de contact tant qu'elles demeurent pertinentes à un mandat actif ou potentiel, et les supprimons par la suite — en pratique, au plus 24 mois après notre dernier contact avec vous, à moins que vous ne demandiez une suppression plus rapide ou que la loi n'exige une conservation plus longue."
+      },
+      {
+        "title": "Vos droits",
+        "body": "En vertu de la Loi sur la protection des renseignements personnels dans le secteur privé du Québec, vous pouvez nous demander, sans frais : de voir les renseignements personnels que nous détenons à votre sujet ; de les corriger s'ils sont inexacts ou incomplets ; ou de les supprimer. Écrivez à info@comptazen.digital et nous répondrons dans un délai de 30 jours."
+      },
+      {
+        "title": "Sécurité",
+        "body": "Nous prenons des mesures de sécurité techniques et organisationnelles raisonnables pour protéger vos renseignements contre la perte, l'accès non autorisé et la divulgation. Aucun système n'est parfaitement sécurisé, et nous ne pouvons garantir une sécurité absolue."
+      },
+      {
+        "title": "En cas d'incident",
+        "body": "Si nous prenons connaissance d'un incident de confidentialité touchant vos renseignements personnels qui présente un risque de préjudice sérieux, nous vous en aviserons ainsi que la Commission d'accès à l'information, tel que requis par la loi."
+      },
+      {
+        "title": "Plaintes",
+        "body": "Si vous n'êtes pas satisfait de la façon dont nous avons traité vos renseignements personnels, vous pouvez nous contacter directement à info@comptazen.digital, ou déposer une plainte auprès de la Commission d'accès à l'information du Québec (cai.gouv.qc.ca)."
+      },
+      {
+        "title": "Modifications",
+        "body": "Nous mettrons à jour cette page si notre façon de traiter vos renseignements change, et mettrons la date ci-dessus à jour en conséquence."
+      }
+    ]
   }
 }

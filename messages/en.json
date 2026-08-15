@@ -16,7 +16,8 @@
   "Footer": {
     "tagline": "Accounting operations, automated. Self-hosted. Built once.",
     "copyright": "© {year} ComptaZen. Québec, Canada.",
-    "email": "info@comptazen.digital"
+    "email": "info@comptazen.digital",
+    "privacyLink": "Privacy Policy"
   },
   "Home": {
     "meta": {
@@ -184,8 +185,10 @@
       "businessName": "Business name",
       "email": "Email",
       "painQuestion": "What's the most painful manual process in your accounting right now?",
+      "consent": "I agree to the <privacyLink>Privacy Policy</privacyLink> and consent to ComptaZen collecting and using my information to respond to this inquiry.",
       "submit": "Book your free discovery call",
       "sending": "Sending…",
+      "errorBody": "Something went wrong sending your message. Please try again, or email us directly at info@comptazen.digital.",
       "successTitle": "Got it.",
       "successBody": "We'll be in touch shortly to book your discovery call."
     },
@@ -303,5 +306,60 @@
       "totalLabel": "TOTAL",
       "note": "Both taxes are calculated on the subtotal, independently of each other — not GST-on-subtotal-then-QST-on-top."
     }
+  },
+  "PrivacyPolicy": {
+    "meta": {
+      "title": "Privacy Policy — ComptaZen",
+      "description": "How ComptaZen collects, uses, and protects your personal information."
+    },
+    "kicker": "PRIVACY POLICY",
+    "h1": "Privacy Policy",
+    "updated": "Last updated: August 15, 2026",
+    "sections": [
+      {
+        "title": "Who we are",
+        "body": "ComptaZen is a Quebec-based accounting automation practice. For any question about this policy or your personal information, contact us at info@comptazen.digital."
+      },
+      {
+        "title": "What we collect",
+        "body": "Our contact form on comptazen.digital collects: your name, your business name, your email address, and whatever you write in the “what's the most painful process” field. We don't collect anything else through this form, and we don't use tracking cookies or analytics scripts on this site."
+      },
+      {
+        "title": "Why we collect it",
+        "body": "We use this information for exactly one purpose: to respond to your inquiry and, if you choose to proceed, to schedule and prepare for a discovery call. We do not use it for marketing, we do not sell it, and we do not share it with anyone except the service provider described below, strictly to deliver your message to us."
+      },
+      {
+        "title": "Your consent",
+        "body": "By checking the box on the contact form before submitting, you consent to us collecting and using your information for the purpose described above. You can withdraw that consent at any time by emailing info@comptazen.digital — we'll stop using your information and delete it, except where we're legally required to keep records."
+      },
+      {
+        "title": "Where your information goes",
+        "body": "When you submit the form, your information is sent to us by email through Resend, a U.S.-based email delivery service. Resend acts as our data processor under a written data processing agreement covering confidentiality, security, and deletion of your information, with contractual safeguards for the transfer outside Quebec. Your information is stored on Resend's servers in the United States only for as long as needed to deliver the email, and then in our own email inbox."
+      },
+      {
+        "title": "How long we keep it",
+        "body": "We keep contact form submissions for as long as they're relevant to an active or potential engagement, and delete them once that's no longer the case — in practice, no longer than 24 months after our last contact with you, unless you ask us to delete it sooner or we're required to retain it longer for legal reasons."
+      },
+      {
+        "title": "Your rights",
+        "body": "Under Quebec's Act respecting the protection of personal information in the private sector, you can ask us, at no cost, to: see what personal information we hold about you; correct it if it's inaccurate or incomplete; or delete it. Email info@comptazen.digital and we'll respond within 30 days."
+      },
+      {
+        "title": "Security",
+        "body": "We take reasonable technical and organizational measures to protect your information against loss, unauthorized access, and disclosure. No system is perfectly secure, and we can't guarantee absolute security."
+      },
+      {
+        "title": "If something goes wrong",
+        "body": "If we become aware of a confidentiality incident involving your personal information that presents a risk of serious injury, we'll notify you and the Commission d'accès à l'information as required by law."
+      },
+      {
+        "title": "Complaints",
+        "body": "If you're unsatisfied with how we've handled your personal information, you can contact us directly at info@comptazen.digital, or file a complaint with Quebec's Commission d'accès à l'information (cai.gouv.qc.ca)."
+      },
+      {
+        "title": "Changes to this policy",
+        "body": "We'll update this page if how we handle your information changes, and update the date above."
+      }
+    ]
   }
 }

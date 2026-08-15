@@ -21,7 +21,10 @@ export function Nav() {
           href="/"
           className="font-display text-sm font-semibold uppercase tracking-[0.14em] text-[var(--color-ink)]"
         >
-          ComptaZen
+          <span className="text-[var(--color-accent)]">C</span>
+          ompta
+          <span className="text-[var(--color-accent)]">Z</span>
+          en
         </Link>
 
         <nav className="hidden items-center gap-8 font-mono text-[11px] uppercase tracking-[0.12em] text-[var(--color-ink-muted)] md:flex">

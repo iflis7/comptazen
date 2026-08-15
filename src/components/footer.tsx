@@ -31,8 +31,11 @@ export async function Footer() {
           ))}
         </nav>
       </div>
-      <div className="mx-auto max-w-6xl border-t border-[var(--color-border-soft)] px-6 py-6 font-mono text-[11px] tracking-[0.06em] text-[var(--color-ink-faint)]">
-        {t("copyright", { year: new Date().getFullYear() })}
+      <div className="mx-auto flex max-w-6xl flex-col gap-2 border-t border-[var(--color-border-soft)] px-6 py-6 font-mono text-[11px] tracking-[0.06em] text-[var(--color-ink-faint)] sm:flex-row sm:items-center sm:justify-between">
+        <span>{t("copyright", { year: new Date().getFullYear() })}</span>
+        <Link href="/privacy-policy" className="hover:text-[var(--color-ink-muted)]">
+          {t("privacyLink")}
+        </Link>
       </div>
     </footer>
   );
