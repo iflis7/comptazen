@@ -16,6 +16,12 @@ export async function Footer() {
           <p className="mt-2 text-sm text-[var(--color-ink-muted)]">
             {t("tagline")}
           </p>
+          <a
+            href="mailto:info@comptazen.digital"
+            className="mt-2 block font-mono text-xs text-[var(--color-ink-muted)] transition-colors hover:text-[var(--color-accent)]"
+          >
+            {t("email")}
+          </a>
         </div>
         <nav className="flex flex-wrap gap-x-6 gap-y-2 font-mono text-[11px] uppercase tracking-[0.1em] text-[var(--color-ink-muted)]">
           {NAV_LINKS.map((link) => (

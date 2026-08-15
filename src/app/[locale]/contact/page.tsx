@@ -37,6 +37,16 @@ export default async function ContactPage({
       <div className="mt-10">
         <ContactForm />
       </div>
+
+      <p className="mt-8 text-sm text-[var(--color-ink-muted)]">
+        {t("emailAlt")}{" "}
+        <a
+          href="mailto:info@comptazen.digital"
+          className="text-[var(--color-accent)] hover:underline"
+        >
+          info@comptazen.digital
+        </a>
+      </p>
     </section>
   );
 }

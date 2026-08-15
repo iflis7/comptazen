@@ -15,7 +15,8 @@
   },
   "Footer": {
     "tagline": "Automatisation des opérations comptables. Autohébergé. Construit une fois.",
-    "copyright": "© {year} ComptaZen. Québec, Canada."
+    "copyright": "© {year} ComptaZen. Québec, Canada.",
+    "email": "info@comptazen.digital"
   },
   "Home": {
     "meta": {
@@ -161,7 +162,7 @@
     },
     "kicker": "À PROPOS",
     "h1": "Pourquoi ça existe",
-    "founderBio": "Hafid SAADI a passé des années à travailler en intégration ERP, en automatisation des processus et en technologie comptable — à combler l'écart entre la façon dont une entreprise fonctionne réellement et les systèmes censés la soutenir. ComptaZen existe parce que cet écart est le même, encore et encore, dans presque tous les bureaux administratifs des petites entreprises : du vrai travail fait à la main que le logiciel devrait faire à sa place.",
+    "founderBio": "[Nom du fondateur] a passé des années à travailler en intégration ERP, en automatisation des processus et en technologie comptable — à combler l'écart entre la façon dont une entreprise fonctionne réellement et les systèmes censés la soutenir. ComptaZen existe parce que cet écart est le même, encore et encore, dans presque tous les bureaux administratifs des petites entreprises : du vrai travail fait à la main que le logiciel devrait faire à sa place.",
     "approachLabel": "L'APPROCHE",
     "approachTitle": "Construit et hébergé, jamais bricolé",
     "approachBody": "ComptaZen construit et héberge elle-même chaque système — rien de bricolé à partir de plateformes no-code tierces, rien qui achemine vos données financières à travers les outils d'une autre entreprise. Si un système touche à la façon dont l'argent circule dans votre entreprise, vous devriez pouvoir savoir exactement qui y touche, et comment.",
@@ -187,7 +188,8 @@
       "sending": "Envoi en cours…",
       "successTitle": "C'est noté.",
       "successBody": "On vous contactera sous peu pour réserver votre appel de découverte."
-    }
+    },
+    "emailAlt": "Vous préférez le courriel? Écrivez-nous à"
   },
   "HowItWorksPage": {
     "meta": {

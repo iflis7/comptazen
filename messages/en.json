@@ -15,7 +15,8 @@
   },
   "Footer": {
     "tagline": "Accounting operations, automated. Self-hosted. Built once.",
-    "copyright": "© {year} ComptaZen. Québec, Canada."
+    "copyright": "© {year} ComptaZen. Québec, Canada.",
+    "email": "info@comptazen.digital"
   },
   "Home": {
     "meta": {
@@ -161,7 +162,7 @@
     },
     "kicker": "ABOUT",
     "h1": "Why this exists",
-    "founderBio": "Hafid SAADI spent years working in ERP integration, workflow automation, and accounting technology — bridging the gap between how a business actually operates and the systems meant to support it. ComptaZen exists because that gap is the same gap, over and over, in almost every small business's back office: real work being done by hand that software should be doing instead.",
+    "founderBio": "[Founder name] spent years working in ERP integration, workflow automation, and accounting technology — bridging the gap between how a business actually operates and the systems meant to support it. ComptaZen exists because that gap is the same gap, over and over, in almost every small business's back office: real work being done by hand that software should be doing instead.",
     "approachLabel": "THE APPROACH",
     "approachTitle": "Built and hosted, never glued together",
     "approachBody": "ComptaZen builds and hosts every system itself — nothing glued together from third-party no-code platforms, nothing routing your financial data through another company's tools. If a system touches how money moves through your business, you should be able to trust exactly who's touching it and how.",
@@ -187,7 +188,8 @@
       "sending": "Sending…",
       "successTitle": "Got it.",
       "successBody": "We'll be in touch shortly to book your discovery call."
-    }
+    },
+    "emailAlt": "Prefer email? Write to"
   },
   "HowItWorksPage": {
     "meta": {
