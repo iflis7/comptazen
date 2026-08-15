@@ -5,52 +5,77 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 
+// Submissions go straight to a Google Form via its "pre-filled link" —
+// no backend of our own. Regenerate these if the form's questions ever
+// change: open the form → ⋮ menu → "Get pre-filled link" → fill in each
+// field with a placeholder → Get Link, then copy the entry.XXXXXXXXX
+// value that shows up for each field in the resulting URL.
+const GOOGLE_FORM_BASE =
+  "https://docs.google.com/forms/d/e/1FAIpQLSd-3zhx2WfqAOo9b69ciQEQde-mgzI_4ZyLsY5Yq_FEZV1Fgg/viewform";
+const ENTRY_NAME = "entry.2005620554";
+const ENTRY_EMAIL = "entry.1045781291";
+const ENTRY_BUSINESS = "entry.1065046570";
+const ENTRY_PAIN = "entry.839337160";
+
+// Real users take at least this long to fill out the form — anything
+// faster is almost certainly a bot that skipped rendering entirely.
+const MIN_SUBMIT_MS = 1500;
+
 export function ContactForm() {
   const t = useTranslations("ContactPage.form");
   const [submitted, setSubmitted] = useState(false);
-  const [loading, setLoading] = useState(false);
+  const [redirecting, setRedirecting] = useState(false);
   const [error, setError] = useState(false);
   const [consent, setConsent] = useState(false);
-  // Captured once, on mount — used as a bot-timing trap (see the API
-  // route): a submission faster than a human could plausibly fill the
-  // form is rejected server-side. Set in an effect rather than as the
-  // useRef initializer, since Date.now() is impure and must not run
-  // during render.
+  // Captured once, on mount — used as a bot-timing trap: a submission
+  // faster than a human could plausibly fill the form is rejected. Set
+  // in an effect rather than as the useRef initializer, since Date.now()
+  // is impure and must not run during render.
   const renderedAtRef = useRef(0);
   useEffect(() => {
     renderedAtRef.current = Date.now();
   }, []);
 
-  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
+  function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    setLoading(true);
     setError(false);
 
     const formData = new FormData(e.currentTarget);
-    const payload = {
-      name: formData.get("name"),
-      business: formData.get("business"),
-      email: formData.get("email"),
-      pain: formData.get("pain"),
-      // Honeypot — left blank by real visitors, since it's hidden from view.
-      website: formData.get("website"),
-      renderedAt: renderedAtRef.current,
-      consent,
-    };
+    const name = String(formData.get("name") ?? "").trim();
+    const business = String(formData.get("business") ?? "").trim();
+    const email = String(formData.get("email") ?? "").trim();
+    const pain = String(formData.get("pain") ?? "").trim();
+    // Honeypot — left blank by real visitors, since it's hidden from view.
+    const website = String(formData.get("website") ?? "").trim();
 
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
-      });
-      if (!res.ok) throw new Error("submit_failed");
+    if (website) {
+      // Pretend success so the bot doesn't learn to skip this field —
+      // nothing is actually sent anywhere.
       setSubmitted(true);
-    } catch {
-      setError(true);
-    } finally {
-      setLoading(false);
+      return;
     }
+
+    if (!renderedAtRef.current || Date.now() - renderedAtRef.current < MIN_SUBMIT_MS) {
+      setError(true);
+      return;
+    }
+
+    if (!name || !business || !email || !pain || !consent) {
+      setError(true);
+      return;
+    }
+
+    setRedirecting(true);
+
+    const params = new URLSearchParams({
+      usp: "pp_url",
+      [ENTRY_NAME]: name,
+      [ENTRY_EMAIL]: email,
+      [ENTRY_BUSINESS]: business,
+      [ENTRY_PAIN]: pain,
+    });
+
+    window.location.href = `${GOOGLE_FORM_BASE}?${params.toString()}`;
   }
 
   if (submitted) {
@@ -131,10 +156,10 @@ export function ContactForm() {
       <Button
         type="submit"
         size="lg"
-        disabled={loading || !consent}
+        disabled={redirecting || !consent}
         className="mt-2 w-fit"
       >
-        {loading ? t("sending") : t("submit")}
+        {redirecting ? t("sending") : t("submit")}
       </Button>
     </form>
   );

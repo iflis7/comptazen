@@ -334,7 +334,7 @@
       },
       {
         "title": "Where your information goes",
-        "body": "When you submit the form, your information is sent to us by email through Resend, a U.S.-based email delivery service. Resend acts as our data processor under a written data processing agreement covering confidentiality, security, and deletion of your information, with contractual safeguards for the transfer outside Quebec. Your information is stored on Resend's servers in the United States only for as long as needed to deliver the email, and then in our own email inbox."
+        "body": "When you submit the form, you're taken to a Google Form to complete your submission, and your information is stored on Google's systems rather than on servers we control. Google acts as a service provider for us in this respect. As with any service provider located outside Quebec, this transfer requires appropriate contractual safeguards to be in place — we're putting those in order as part of setting this up, consistent with Google's own data processing terms for accounts used for business purposes."
       },
       {
         "title": "How long we keep it",
