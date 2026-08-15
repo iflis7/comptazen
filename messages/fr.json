@@ -1,0 +1,305 @@
+{
+  "Nav": {
+    "services": "Services",
+    "howItWorks": "Comment ça marche",
+    "useCases": "Cas d'usage",
+    "about": "À propos",
+    "contact": "Contact",
+    "bookCall": "Réserver un appel",
+    "bookDiscoveryCall": "Réserver un appel de découverte",
+    "toggleMenu": "Afficher ou masquer le menu",
+    "switchToEnglish": "Passer en anglais",
+    "switchToFrench": "Passer en français",
+    "switchToLight": "Passer au thème clair",
+    "switchToDark": "Passer au thème sombre"
+  },
+  "Footer": {
+    "tagline": "Automatisation des opérations comptables. Autohébergé. Construit une fois.",
+    "copyright": "© {year} ComptaZen. Québec, Canada."
+  },
+  "Home": {
+    "meta": {
+      "title": "ComptaZen — Opérations comptables, automatisées",
+      "description": "ComptaZen conçoit des automatisations autohébergées pour le traitement des factures, le rapprochement bancaire, les recouvrements et la conformité TPS/TVQ au Québec. Le calme plutôt que le chaos."
+    },
+    "kicker": "AUTOMATISATION DES OPÉRATIONS COMPTABLES — QUÉBEC",
+    "h1": "Votre comptabilité ne devrait pas exiger un miracle chaque mois.",
+    "sub": "ComptaZen conçoit l'automatisation que votre équipe comptable remet toujours à plus tard, faute de temps — traitement des factures, rapprochement, recouvrements, conformité québécoise. Autohébergé. Construit une fois. Fonctionne selon vos règles.",
+    "ctaPrimary": "Réserver un appel de découverte gratuit",
+    "ctaNote": "30 minutes. Aucune présentation commerciale.",
+    "problem": "Quelque part dans votre entreprise, en ce moment même, quelqu'un tape manuellement des numéros de facture dans un chiffrier. Quelqu'un rapproche des transactions bancaires à la main à 23h avant la clôture de fin de mois. Quelqu'un relance un client pour un paiement en retard depuis trois semaines.",
+    "problemHighlight": "Rien de tout cela n'est un problème de stratégie. C'est un problème de plomberie — et ça se répare.",
+    "servicesLabel": "01 — SERVICES",
+    "servicesTitle": "Ce que nous réglons",
+    "seeHowItWorks": "VOIR COMMENT ÇA MARCHE →",
+    "selfHostedLabel": "02 — POURQUOI L'AUTOHÉBERGEMENT",
+    "selfHostedTitle": "Pourquoi autohébergé et conçu sur mesure",
+    "processLabel": "03 — PROCESSUS",
+    "bookYourCall": "Réservez votre appel de découverte",
+    "whyLabel": "04 — POURQUOI COMPTAZEN",
+    "whyTitle": "Pourquoi ComptaZen, honnêtement",
+    "whyBody": "ComptaZen est une jeune entreprise. Il n'y a pas encore une longue liste de clients — et nous préférons le dire clairement plutôt que de gonfler cette page avec des affirmations vagues. Ce qu'il y a bel et bien : un fondateur avec une expérience concrète en intégration ERP, en automatisation des processus et en technologie comptable, et une décision délibérée de fixer un prix sous le marché pour les premiers mandats, spécifiquement pour le prouver avec des résultats réels, pas des promesses. Si vous faites partie des premiers clients, vous ne payez pas une taxe « on apprend encore » — vous obtenez une attention de niveau fondateur, de plus en plus difficile à obtenir une fois l'horaire rempli.",
+    "finalCtaTitle": "Réserver un appel de découverte gratuit",
+    "finalCtaSub": "30 minutes. Aucune présentation commerciale. Seulement ce qui vous fait perdre du temps, et si on est faits l'un pour l'autre."
+  },
+  "Services": {
+    "invoice-ap-automation": {
+      "name": "Automatisation des factures et comptes fournisseurs",
+      "problem": "Quelqu'un dans votre équipe entre manuellement les données de factures, relance les approbations par courriel ou Slack, puis ressaisit les mêmes chiffres dans votre logiciel comptable.",
+      "build": "Capture automatisée des factures et extraction des données, un flux d'approbation calqué sur la façon dont votre entreprise approuve réellement les dépenses, et une synchronisation directe avec QuickBooks, Xero, Zoho, ou l'outil que vous utilisez déjà.",
+      "outcome": "Plus de saisie manuelle. Plus de paiements en double. Un processus de comptes fournisseurs qui tourne en arrière-plan au lieu de dévorer un après-midi chaque semaine.",
+      "timeline": "1 à 3 semaines",
+      "introPrice": "1 800 $–3 000 $",
+      "marketPrice": "4 000 $–8 000 $",
+      "note": ""
+    },
+    "bank-reconciliation-automation": {
+      "name": "Automatisation bancaire et du rapprochement",
+      "problem": "Rapprocher manuellement les transactions bancaires et de carte de crédit avec vos livres est lent, sujet aux erreurs, et la principale raison pour laquelle la clôture de fin de mois s'éternise.",
+      "build": "Rapprochement automatisé des transactions. Seules les vraies exceptions sont signalées à un humain — pas chaque ligne.",
+      "outcome": "La clôture passe de plusieurs jours à quelques heures. Des livres réellement à jour, pas « à jour il y a deux semaines ».",
+      "timeline": "1 à 3 semaines",
+      "introPrice": "1 500 $–2 500 $",
+      "marketPrice": "3 000 $–6 000 $",
+      "note": "Offert aussi aux cabinets comptables et de tenue de livres qui gèrent cela pour des dizaines de dossiers clients — une seule automatisation, déployée sur l'ensemble de votre portefeuille. Tarif cabinets : 2 000 $–4 000 $ de mise en place + 300 $–800 $/mois."
+    },
+    "ar-collections-automation": {
+      "name": "Automatisation des comptes clients et recouvrements",
+      "problem": "Être payé à temps ne devrait pas dépendre du fait que quelqu'un se souvienne de relancer. Les relances manuelles mènent à un suivi inégal et à des liquidités qui dorment trop longtemps dans les comptes de vos clients.",
+      "build": "Séquences de rappels automatisées, relances progressives, et un tableau de bord clair de ce qui est dû, et depuis combien de temps.",
+      "outcome": "Des recouvrements plus rapides, moins de temps passé par le propriétaire à relancer des factures, une meilleure situation de trésorerie.",
+      "timeline": "1 à 2 semaines",
+      "introPrice": "1 200 $–2 000 $",
+      "marketPrice": "2 500 $–5 000 $",
+      "note": ""
+    },
+    "quebec-gst-qst-compliance": {
+      "name": "Automatisation de la conformité TPS/TVQ",
+      "problem": "Les calculs de versement, les échéances de déclaration et la conservation des documents selon les règles particulières de Revenu Québec forment un casse-tête distinct de la tenue de livres générale — et presque personne ne conçoit d'automatisation spécifiquement pour cela.",
+      "build": "Calcul automatisé de la TPS/TVQ, rappels des échéances de déclaration, et archivage organisé des documents — conçu spécifiquement pour les règles du Québec, pas adapté d'un modèle générique.",
+      "outcome": "Moins de courses folles avant les échéances de déclaration, une piste de vérification propre si Revenu Québec en demande une.",
+      "timeline": "1 à 2 semaines",
+      "introPrice": "1 500 $–3 000 $",
+      "marketPrice": "3 000 $–6 000 $",
+      "note": "Ceci automatise le calcul, le suivi et l'organisation — pas la production de la déclaration en votre nom, qui implique des règles distinctes de représentant autorisé que nous vérifions avant de l'offrir en service groupé."
+    },
+    "custom-special-projects": {
+      "name": "Projets sur mesure et mandats spéciaux",
+      "problem": "Votre entreprise carbure à quelque chose qui ne rentre pas proprement dans les factures, la conciliation ou les recouvrements — une migration de données ponctuelle, un outil interne particulier, un processus que vous seul comprenez vraiment. Un logiciel standard ne s'adapte pas à ça, et embaucher une équipe de dev au complet pour un seul projet n'a pas de sens non plus.",
+      "build": "D'abord un appel pour cadrer le besoin, ensuite ce que le problème demande réellement — un outil interne sur mesure, une migration de données ponctuelle, une intégration entre deux systèmes qui n'étaient jamais censés se parler, ou l'automatisation d'un processus propre à la façon dont vous opérez.",
+      "outcome": "Ce qui était manuel, fragile ou tenu ensemble par des chiffriers est remplacé par quelque chose bâti pour votre situation exacte — pas un compromis forcé dans le moule de quelqu'un d'autre.",
+      "timeline": "Selon la portée",
+      "introPrice": "Devis personnalisé",
+      "marketPrice": "—",
+      "note": ""
+    }
+  },
+  "SelfHosted": {
+    "data": {
+      "label": "Données",
+      "text": "Vos données financières restent sur une infrastructure que vous contrôlez — jamais acheminées à travers un empilement de plateformes tierces."
+    },
+    "cost": {
+      "label": "Coût",
+      "text": "Aucun abonnement SaaS par processus qui s'accumule avec le temps. Un seul système, construit une fois, facturé une fois."
+    },
+    "fit": {
+      "label": "Adéquation",
+      "text": "Conçu autour de la façon dont votre entreprise approuve réellement les dépenses et clôture ses livres — pas forcé dans un modèle générique."
+    },
+    "audit": {
+      "label": "Vérification",
+      "text": "Un seul système à vérifier, pas cinq fournisseurs et leurs intégrations, journaux d'accès et ententes de partage de données."
+    }
+  },
+  "Process": {
+    "01": {
+      "title": "Appel de découverte",
+      "description": "Gratuit, environ 30 minutes. On détermine ensemble quel irritant pèse le plus lourd pour votre entreprise — sans présentation commerciale."
+    },
+    "02": {
+      "title": "Proposition à prix fixe",
+      "description": "Portée claire, prix clair, pas de « on verra en cours de route »."
+    },
+    "03": {
+      "title": "On le construit",
+      "description": "1 à 3 semaines pour un seul service, plus long pour un forfait. Des points d'étape réguliers, pas une boîte noire."
+    },
+    "04": {
+      "title": "Remise, avec formation",
+      "description": "Documentation, plus une vraie séance de démonstration — un système que vous comprenez, pas seulement un système qui fonctionne."
+    }
+  },
+  "ServicesPage": {
+    "meta": {
+      "title": "Services — ComptaZen",
+      "description": "Automatisation des factures et comptes fournisseurs, rapprochement bancaire, comptes clients et recouvrements, conformité TPS/TVQ — autohébergé, conçu sur mesure."
+    },
+    "kicker": "SERVICES",
+    "h1": "Quatre services principaux — et de la place pour tout le reste.",
+    "intro": "Chacun se vend seul ou en forfait. Chaque prix ci-dessous est le tarif de lancement pour les premiers mandats — il se rapprochera du prix du marché à mesure qu'on bâtit un historique, donc les premiers clients obtiennent les meilleures conditions. Si votre besoin ne correspond à aucun des quatre, c'est à ça que sert Projets sur mesure et mandats spéciaux.",
+    "introEnded": "Chaque service se vend seul ou en forfait. Si votre besoin ne correspond à aucun des quatre, c'est à ça que sert Projets sur mesure et mandats spéciaux.",
+    "problemLabel": "LE PROBLÈME",
+    "buildLabel": "CE QU'ON CONSTRUIT",
+    "outcomeLabel": "CE QUI CHANGE",
+    "timelineLabel": "DÉLAI",
+    "priceLabel": "PRIX DE LANCEMENT",
+    "priceLabelEnded": "TARIF",
+    "marketPriceNote": "{marketPrice} au prix du marché, plus tard",
+    "bundleTitle": "Prix forfaitaire",
+    "bundleIntro": "Les trois services principaux destinés aux propriétaires (comptes fournisseurs, rapprochement, comptes clients) ensemble :",
+    "bundlePrice": "3 500 $–5 500 $",
+    "bundleSuffix": "en tarif de lancement, contre 4 500 $–7 500 $ si facturés séparément.",
+    "alsoAvailableTitle": "Également offert, sur demande",
+    "alsoAvailableBody": "Tableaux de bord de trésorerie et de rapports (idéalement construits une fois ce qui précède déjà automatisé), réception de documents en période d'impôts (saisonnier), intégration de systèmes avec vos autres outils d'affaires, et quelques autres besoins qu'on peut chiffrer une fois qu'on connaît le vôtre. Ce n'est pas l'offre principale, mais si l'un d'eux est exactement votre problème, demandez.",
+    "cta": "Réservez un appel de découverte gratuit pour déterminer lequel vous convient"
+  },
+  "AboutPage": {
+    "meta": {
+      "title": "À propos — ComptaZen",
+      "description": "Pourquoi ComptaZen existe, et pourquoi chaque système qu'elle construit est autohébergé et conçu sur mesure."
+    },
+    "kicker": "À PROPOS",
+    "h1": "Pourquoi ça existe",
+    "founderBio": "Hafid SAADI a passé des années à travailler en intégration ERP, en automatisation des processus et en technologie comptable — à combler l'écart entre la façon dont une entreprise fonctionne réellement et les systèmes censés la soutenir. ComptaZen existe parce que cet écart est le même, encore et encore, dans presque tous les bureaux administratifs des petites entreprises : du vrai travail fait à la main que le logiciel devrait faire à sa place.",
+    "approachLabel": "L'APPROCHE",
+    "approachTitle": "Construit et hébergé, jamais bricolé",
+    "approachBody": "ComptaZen construit et héberge elle-même chaque système — rien de bricolé à partir de plateformes no-code tierces, rien qui achemine vos données financières à travers les outils d'une autre entreprise. Si un système touche à la façon dont l'argent circule dans votre entreprise, vous devriez pouvoir savoir exactement qui y touche, et comment.",
+    "headedLabel": "OÙ ÇA S'EN VA",
+    "headedTitle": "Un début volontairement ciblé",
+    "headedBody": "ComptaZen commence délibérément de façon ciblée : une poignée de problèmes d'automatisation précis, bien réglés, pour de vrais clients, avant tout le reste.",
+    "cta": "Parlons de ce qui ralentit votre entreprise"
+  },
+  "ContactPage": {
+    "meta": {
+      "title": "Contact — ComptaZen",
+      "description": "Réservez un appel de découverte gratuit avec ComptaZen."
+    },
+    "kicker": "CONTACT",
+    "h1": "Dites-nous ce qui vous fait perdre du temps.",
+    "intro": "Nom, entreprise, courriel, et une question ouverte. Cette question est plus utile que n'importe quel formulaire de contact générique — c'est de toute façon la première chose qu'on vous demandera à l'appel.",
+    "form": {
+      "name": "Nom",
+      "businessName": "Nom de l'entreprise",
+      "email": "Courriel",
+      "painQuestion": "Quel est le processus manuel le plus pénible dans votre comptabilité en ce moment?",
+      "submit": "Réserver mon appel de découverte gratuit",
+      "sending": "Envoi en cours…",
+      "successTitle": "C'est noté.",
+      "successBody": "On vous contactera sous peu pour réserver votre appel de découverte."
+    }
+  },
+  "HowItWorksPage": {
+    "meta": {
+      "title": "Comment ça marche — ComptaZen",
+      "description": "Quatre étapes : un appel de découverte gratuit, une proposition à prix fixe, une réalisation de 1 à 3 semaines, et une vraie remise avec formation."
+    },
+    "kicker": "COMMENT ÇA MARCHE",
+    "h1": "Quatre étapes. C'est tout le processus.",
+    "afterLabel": "Par la suite :",
+    "afterBody": "un forfait mensuel optionnel pour la surveillance et les mises à jour, dont le prix est établi une fois qu'il y a un vrai système à maintenir — pas deviné à l'avance.",
+    "cta": "Commencer par un appel de découverte"
+  },
+  "ServiceAnimations": {
+    "invoice-ap-automation": {
+      "docId": "FACT-0847",
+      "stageCapture": "CAPTURE",
+      "stageApprove": "APPROBATION",
+      "stageSync": "SYNC",
+      "roleManager": "GESTION",
+      "roleFinance": "FINANCES",
+      "syncTile": "GRAND LIVRE",
+      "syncStatus": "SYNC — SANS DOUBLON"
+    },
+    "bank-reconciliation-automation": {
+      "bank": "BANQUE",
+      "books": "LIVRES",
+      "exception": "EXC"
+    },
+    "ar-collections-automation": {
+      "day1": "JOUR 1",
+      "day7": "JOUR 7",
+      "day14": "JOUR 14",
+      "day30": "JOUR 30",
+      "outstanding": "EN SUSPENS",
+      "paid": "PAYÉ EN TOTALITÉ"
+    },
+    "quebec-gst-qst-compliance": {
+      "subtotal": "SOUS-TOTAL",
+      "gst": "TPS (5%)",
+      "qst": "TVQ (9,975%)",
+      "total": "TOTAL",
+      "archived": "ARCHIVÉ"
+    },
+    "custom-special-projects": {
+      "label": "PORTÉE : OUVERTE"
+    }
+  },
+  "ProcessAnimation": {
+    "stepDiscovery": "DÉCOUVERTE",
+    "stepProposal": "PROPOSITION",
+    "stepBuild": "CONSTRUCTION",
+    "stepHandoff": "TRANSFERT",
+    "status": "✓ EN SERVICE"
+  },
+  "UseCasesPage": {
+    "meta": {
+      "title": "Cas d'usage — ComptaZen",
+      "description": "Démos réelles et fonctionnelles : extraction de factures, rapprochement bancaire, vieillissement des comptes clients et calcul TPS/TVQ — essayez-les directement dans votre navigateur."
+    },
+    "kicker": "CAS D'USAGE",
+    "h1": "Voyez-le fonctionner, ne vous contentez pas d'en entendre parler.",
+    "intro": "Chaque démo ci-dessous fonctionne en direct dans votre navigateur — modifiez les données d'exemple et regardez le résultat se recalculer en temps réel. Ce sont des versions simplifiées de la vraie logique, pas des captures d'écran ni des animations scriptées : l'idée est de montrer que l'automatisation derrière est réelle.",
+    "tryLabel": "ESSAYEZ",
+    "seePricingLink": "VOIR LE PRIX ET LA PORTÉE →",
+    "cta": "Réservez un appel de découverte gratuit pour voir lequel correspond à votre entreprise"
+  },
+  "UseCaseDemos": {
+    "invoice-ap-automation": {
+      "blurb": "Collez ou modifiez le texte d'une facture ci-dessous — les champs à droite s'extraient d'eux-mêmes pendant que vous tapez.",
+      "textareaLabel": "TEXTE DE LA FACTURE",
+      "sampleText": "FACTURE\n\nFournisseur : Fournitures Bureau Plus\nFacture # : F-2847\nDate : 2026-07-14\n\nFournitures de bureau — réappro juillet    842,50\nLivraison                                   38,00\n\nTotal : 880,50 $ CAD",
+      "resetButton": "Réinitialiser l'exemple",
+      "vendorLabel": "FOURNISSEUR",
+      "invoiceNumberLabel": "FACTURE #",
+      "dateLabel": "DATE",
+      "totalLabel": "TOTAL",
+      "notDetected": "non détecté"
+    },
+    "bank-reconciliation-automation": {
+      "blurb": "Modifiez n'importe quel montant, d'un côté ou de l'autre — le rapprochement se relance en direct et re-signale les exceptions, peu importe la position de la ligne.",
+      "bankHeader": "RELEVÉ BANCAIRE",
+      "booksHeader": "VOS LIVRES",
+      "matched": "APPARIÉ",
+      "exception": "EXCEPTION",
+      "unmatchedInBooks": "NON APPARIÉ DANS LES LIVRES"
+    },
+    "ar-collections-automation": {
+      "blurb": "Modifiez le nombre de jours de retard ou le montant d'une facture — le stade et les totaux se recalculent en direct.",
+      "clientHeader": "CLIENT",
+      "daysHeader": "JOURS DE RETARD",
+      "amountHeader": "MONTANT",
+      "stageHeader": "STADE",
+      "stageCurrent": "Pas encore échue",
+      "stageDay1": "Jour 1 — premier rappel",
+      "stageDay7": "Jour 7 — relance",
+      "stageDay14": "Jour 14 — escalade",
+      "stageDay30": "Jour 30 — avis final",
+      "totalOutstanding": "TOTAL EN SUSPENS",
+      "totalFinalNotice": "EN AVIS FINAL",
+      "client1": "Atelier Lemieux",
+      "client2": "Groupe Bérubé",
+      "client3": "Dépanneur St-Onge",
+      "client4": "Studio Marchand",
+      "client5": "Traiteur Boisvert"
+    },
+    "quebec-gst-qst-compliance": {
+      "blurb": "Entrez un sous-total — la TPS et la TVQ sont calculées exactement comme Revenu Québec l'exige.",
+      "subtotalLabel": "SOUS-TOTAL (AVANT TAXES)",
+      "gstLabel": "TPS (5 %)",
+      "qstLabel": "TVQ (9,975 %)",
+      "totalLabel": "TOTAL",
+      "note": "Les deux taxes sont calculées sur le sous-total, indépendamment l'une de l'autre — pas la TVQ appliquée par-dessus la TPS."
+    }
+  }
+}

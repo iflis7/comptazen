@@ -1,0 +1,305 @@
+{
+  "Nav": {
+    "services": "Services",
+    "howItWorks": "How It Works",
+    "useCases": "Use Cases",
+    "about": "About",
+    "contact": "Contact",
+    "bookCall": "Book a call",
+    "bookDiscoveryCall": "Book a discovery call",
+    "toggleMenu": "Toggle menu",
+    "switchToEnglish": "Switch language to English",
+    "switchToFrench": "Switch language to French",
+    "switchToLight": "Switch to light theme",
+    "switchToDark": "Switch to dark theme"
+  },
+  "Footer": {
+    "tagline": "Accounting operations, automated. Self-hosted. Built once.",
+    "copyright": "© {year} ComptaZen. Québec, Canada."
+  },
+  "Home": {
+    "meta": {
+      "title": "ComptaZen — Accounting operations, automated",
+      "description": "ComptaZen builds self-hosted automation for invoice processing, reconciliation, collections, and Quebec GST/QST compliance. Calm instead of chaos."
+    },
+    "kicker": "ACCOUNTING OPERATIONS AUTOMATION — QUEBEC",
+    "h1": "Your books shouldn't need a miracle every month.",
+    "sub": "ComptaZen builds the automation your accounting team keeps meaning to set up but never has time for — invoice processing, reconciliation, collections, Quebec compliance. Self-hosted. Built once. Running on your terms.",
+    "ctaPrimary": "Book a free discovery call",
+    "ctaNote": "30 minutes. No pitch deck.",
+    "problem": "Somewhere in your business right now, someone is manually typing invoice numbers into a spreadsheet. Someone is matching bank transactions by hand at 11pm before month-end close. Someone is chasing a client for a payment that was due three weeks ago.",
+    "problemHighlight": "None of this is a strategy problem. It's a plumbing problem — and it's fixable.",
+    "servicesLabel": "01 — SERVICES",
+    "servicesTitle": "What we fix",
+    "seeHowItWorks": "SEE HOW IT WORKS →",
+    "selfHostedLabel": "02 — WHY SELF-HOSTED",
+    "selfHostedTitle": "Why self-hosted, custom-built",
+    "processLabel": "03 — PROCESS",
+    "bookYourCall": "Book your discovery call",
+    "whyLabel": "04 — WHY COMPTAZEN",
+    "whyTitle": "Why ComptaZen, honestly",
+    "whyBody": "ComptaZen is new. There's no long client roster yet — and we'd rather say that plainly than pad this page with vague claims. What there is: a founder with real, hands-on background in ERP integration, workflow automation, and accounting technology, and a deliberate decision to price the first few engagements below market specifically to prove this out with real results, not promises. If you're one of the first few clients, you're not paying a “we're still figuring this out” tax — you're getting a founder-level focus that gets harder to get once the calendar fills up.",
+    "finalCtaTitle": "Book a free discovery call",
+    "finalCtaSub": "30 minutes. No pitch deck. Just what's eating your time and whether we're a fit."
+  },
+  "Services": {
+    "invoice-ap-automation": {
+      "name": "Invoice & AP Automation",
+      "problem": "Someone on your team is manually entering invoice data, chasing approvals over email or Slack, then re-entering the same numbers into your accounting software.",
+      "build": "Automated invoice capture and data extraction, an approval routing workflow that matches how your business actually approves spend, and a direct sync into QuickBooks, Xero, Zoho, or whatever you already run.",
+      "outcome": "No manual entry. No duplicate payments. An AP process that runs in the background instead of eating an afternoon every week.",
+      "timeline": "1–3 weeks",
+      "introPrice": "$1,800–$3,000",
+      "marketPrice": "$4,000–$8,000",
+      "note": ""
+    },
+    "bank-reconciliation-automation": {
+      "name": "Bank & Reconciliation Automation",
+      "problem": "Matching bank and credit card transactions against your books by hand is slow, error-prone, and the main reason month-end close drags on.",
+      "build": "Automated transaction matching. Only genuine exceptions get flagged for a human — not every line.",
+      "outcome": "Close goes from days to hours. Books that are actually current, not “current as of two weeks ago.”",
+      "timeline": "1–3 weeks",
+      "introPrice": "$1,500–$2,500",
+      "marketPrice": "$3,000–$6,000",
+      "note": "Also available for accounting and bookkeeping firms managing this across dozens of client files — one automation, scaled across your whole book of business. Firm pricing: $2,000–$4,000 setup + $300–$800/month across your portfolio."
+    },
+    "ar-collections-automation": {
+      "name": "AR & Collections Automation",
+      "problem": "Getting paid on time shouldn't depend on someone remembering to follow up. Manual chasing means inconsistent follow-through and cash sitting in other people's accounts longer than it should.",
+      "build": "Automated reminder sequences, escalating follow-ups, and a clear dashboard of what's outstanding and for how long.",
+      "outcome": "Faster collections, less owner time spent chasing invoices, a healthier cash position.",
+      "timeline": "1–2 weeks",
+      "introPrice": "$1,200–$2,000",
+      "marketPrice": "$2,500–$5,000",
+      "note": ""
+    },
+    "quebec-gst-qst-compliance": {
+      "name": "Quebec GST/QST Compliance Automation",
+      "problem": "Remittance calculations, filing deadlines, and document retention for Revenu Québec's specific rules are a distinct headache from general bookkeeping — and almost nobody builds automation specifically for it.",
+      "build": "Automated GST/QST calculation, filing-deadline reminders, and organized document archiving — built for Quebec's rules specifically, not adapted from a generic template.",
+      "outcome": "Fewer scrambles before filing deadlines, a clean paper trail if Revenu Québec ever asks for one.",
+      "timeline": "1–2 weeks",
+      "introPrice": "$1,500–$3,000",
+      "marketPrice": "$3,000–$6,000",
+      "note": "This automates calculation, tracking, and organization — not filing on your behalf, which involves separate authorized-representative rules we verify before offering as a bundled service."
+    },
+    "custom-special-projects": {
+      "name": "Custom & Special Projects",
+      "problem": "Your business runs on something that doesn't fit neatly into invoices, reconciliation, or collections — a one-off data migration, a specific internal tool, a process only you understand. Off-the-shelf software doesn't bend to fit it, and hiring a full dev team for one project doesn't make sense either.",
+      "build": "A scoped call first, then whatever the problem actually needs — a custom internal tool, a one-off data migration, an integration between systems that were never meant to talk to each other, or automation built around how your business actually runs.",
+      "outcome": "Whatever was manual, brittle, or held together with spreadsheets gets replaced with something built for your exact situation — not a workaround forced into someone else's template.",
+      "timeline": "Depends on scope",
+      "introPrice": "Custom quote",
+      "marketPrice": "—",
+      "note": ""
+    }
+  },
+  "SelfHosted": {
+    "data": {
+      "label": "Data",
+      "text": "Your financial data stays on infrastructure you control — never routed through a stack of third-party platforms."
+    },
+    "cost": {
+      "label": "Cost",
+      "text": "No per-workflow SaaS subscriptions stacking up over time. One system, built once, priced once."
+    },
+    "fit": {
+      "label": "Fit",
+      "text": "Built around how your business actually approves spend and closes books — not bent to fit a generic template."
+    },
+    "audit": {
+      "label": "Audit",
+      "text": "One system to audit, not five vendors' worth of integrations, access logs, and data-sharing agreements."
+    }
+  },
+  "Process": {
+    "01": {
+      "title": "Discovery call",
+      "description": "Free, about 30 minutes. We figure out which pain point is loudest for your business — no pitch deck."
+    },
+    "02": {
+      "title": "Fixed-price proposal",
+      "description": "Clear scope, clear price, no “we'll figure it out as we go.”"
+    },
+    "03": {
+      "title": "We build it",
+      "description": "1–3 weeks for a single service, longer for a bundle. Regular check-ins, not a black box."
+    },
+    "04": {
+      "title": "Handoff, with training",
+      "description": "Documentation plus a real walkthrough session — a system you understand, not just one that works."
+    }
+  },
+  "ServicesPage": {
+    "meta": {
+      "title": "Services — ComptaZen",
+      "description": "Invoice & AP automation, bank reconciliation, AR/collections, and Quebec GST/QST compliance automation — self-hosted, custom-built."
+    },
+    "kicker": "SERVICES",
+    "h1": "Four core services — and room for whatever else you need.",
+    "intro": "Each core service is sold on its own or bundled. Every price below is the intro rate for early engagements — it moves toward market rate as we build a track record, so the earliest clients get the best terms. If what you need doesn't match any of the four, that's what Custom & Special Projects is for.",
+    "introEnded": "Each service is sold on its own or bundled. If what you need doesn't match any of the four, that's what Custom & Special Projects is for.",
+    "problemLabel": "THE PROBLEM",
+    "buildLabel": "WHAT WE BUILD",
+    "outcomeLabel": "WHAT CHANGES",
+    "timelineLabel": "TIMELINE",
+    "priceLabel": "LAUNCH PRICE",
+    "priceLabelEnded": "PRICE",
+    "marketPriceNote": "{marketPrice} at market rate, later",
+    "bundleTitle": "Bundle pricing",
+    "bundleIntro": "All three core direct-to-owner services (AP, Reconciliation, AR) together:",
+    "bundlePrice": "$3,500–$5,500",
+    "bundleSuffix": "intro, versus $4,500–$7,500 if priced separately.",
+    "alsoAvailableTitle": "Also available, on request",
+    "alsoAvailableBody": "Cash flow and reporting dashboards (best built after the above are already automated), tax-season document intake (seasonal), systems integration across your other business tools, and a few other things we can quote once we know what you need. These aren't the headline offer, but if one of them is exactly your problem, ask.",
+    "cta": "Book a free discovery call to figure out which one fits"
+  },
+  "AboutPage": {
+    "meta": {
+      "title": "About — ComptaZen",
+      "description": "Why ComptaZen exists, and why every system it builds is self-hosted and custom-built."
+    },
+    "kicker": "ABOUT",
+    "h1": "Why this exists",
+    "founderBio": "Hafid SAADI spent years working in ERP integration, workflow automation, and accounting technology — bridging the gap between how a business actually operates and the systems meant to support it. ComptaZen exists because that gap is the same gap, over and over, in almost every small business's back office: real work being done by hand that software should be doing instead.",
+    "approachLabel": "THE APPROACH",
+    "approachTitle": "Built and hosted, never glued together",
+    "approachBody": "ComptaZen builds and hosts every system itself — nothing glued together from third-party no-code platforms, nothing routing your financial data through another company's tools. If a system touches how money moves through your business, you should be able to trust exactly who's touching it and how.",
+    "headedLabel": "WHERE THIS IS HEADED",
+    "headedTitle": "Starting narrow, on purpose",
+    "headedBody": "ComptaZen is deliberately starting narrow: a handful of specific automation problems, done well, for real clients, before anything else.",
+    "cta": "Let's talk about what's slowing your business down"
+  },
+  "ContactPage": {
+    "meta": {
+      "title": "Contact — ComptaZen",
+      "description": "Book a free discovery call with ComptaZen."
+    },
+    "kicker": "CONTACT",
+    "h1": "Tell us what's eating your time.",
+    "intro": "Name, business, email, and one open question. That question does more work than a generic contact form ever could — it's the first thing we'll ask on the call anyway.",
+    "form": {
+      "name": "Name",
+      "businessName": "Business name",
+      "email": "Email",
+      "painQuestion": "What's the most painful manual process in your accounting right now?",
+      "submit": "Book your free discovery call",
+      "sending": "Sending…",
+      "successTitle": "Got it.",
+      "successBody": "We'll be in touch shortly to book your discovery call."
+    }
+  },
+  "HowItWorksPage": {
+    "meta": {
+      "title": "How It Works — ComptaZen",
+      "description": "Four steps: a free discovery call, a fixed-price proposal, a 1-3 week build, and a real handoff with training."
+    },
+    "kicker": "HOW IT WORKS",
+    "h1": "It's four steps. That's the whole process.",
+    "afterLabel": "After that:",
+    "afterBody": "an optional monthly retainer for monitoring and updates, priced once there's a real system in place to maintain — not guessed at upfront.",
+    "cta": "Start with a discovery call"
+  },
+  "ServiceAnimations": {
+    "invoice-ap-automation": {
+      "docId": "INV-0847",
+      "stageCapture": "CAPTURE",
+      "stageApprove": "APPROVE",
+      "stageSync": "SYNC",
+      "roleManager": "MANAGER",
+      "roleFinance": "FINANCE",
+      "syncTile": "LEDGER",
+      "syncStatus": "SYNCED — NO DUPLICATE"
+    },
+    "bank-reconciliation-automation": {
+      "bank": "BANK",
+      "books": "BOOKS",
+      "exception": "EXC"
+    },
+    "ar-collections-automation": {
+      "day1": "DAY 1",
+      "day7": "DAY 7",
+      "day14": "DAY 14",
+      "day30": "DAY 30",
+      "outstanding": "OUTSTANDING",
+      "paid": "PAID IN FULL"
+    },
+    "quebec-gst-qst-compliance": {
+      "subtotal": "SUBTOTAL",
+      "gst": "GST (5%)",
+      "qst": "QST (9.975%)",
+      "total": "TOTAL",
+      "archived": "ARCHIVED"
+    },
+    "custom-special-projects": {
+      "label": "SCOPE: OPEN"
+    }
+  },
+  "ProcessAnimation": {
+    "stepDiscovery": "DISCOVERY",
+    "stepProposal": "PROPOSAL",
+    "stepBuild": "BUILD",
+    "stepHandoff": "HANDOFF",
+    "status": "✓ RUNNING"
+  },
+  "UseCasesPage": {
+    "meta": {
+      "title": "Use Cases — ComptaZen",
+      "description": "Live, working demos of invoice parsing, bank reconciliation matching, AR aging, and Quebec GST/QST calculation — run them yourself, right in your browser."
+    },
+    "kicker": "USE CASES",
+    "h1": "See it work, not just hear about it.",
+    "intro": "Every demo below runs live in your browser — edit the sample data and watch it recompute in real time. These are simplified stand-ins for the real logic, not screenshots or scripted animations: the point is to show the underlying automation is real.",
+    "tryLabel": "TRY IT",
+    "seePricingLink": "SEE PRICING & SCOPE →",
+    "cta": "Book a free discovery call to see which of these fits your business"
+  },
+  "UseCaseDemos": {
+    "invoice-ap-automation": {
+      "blurb": "Paste or edit invoice text below — the fields on the right extract themselves as you type.",
+      "textareaLabel": "INVOICE TEXT",
+      "sampleText": "INVOICE\n\nVendor: Fournitures Bureau Plus\nInvoice #: INV-2847\nDate: 2026-07-14\n\nOffice supplies — July restock        842.50\nDelivery                                38.00\n\nTotal: $880.50 CAD",
+      "resetButton": "Reset sample",
+      "vendorLabel": "VENDOR",
+      "invoiceNumberLabel": "INVOICE #",
+      "dateLabel": "DATE",
+      "totalLabel": "TOTAL",
+      "notDetected": "not detected"
+    },
+    "bank-reconciliation-automation": {
+      "blurb": "Edit any amount on either side — matching re-runs live and re-flags exceptions, it isn't tied to row position.",
+      "bankHeader": "BANK STATEMENT",
+      "booksHeader": "YOUR BOOKS",
+      "matched": "MATCHED",
+      "exception": "EXCEPTION",
+      "unmatchedInBooks": "UNMATCHED IN BOOKS"
+    },
+    "ar-collections-automation": {
+      "blurb": "Edit the days overdue or the amount on any invoice — the stage and totals recalculate live.",
+      "clientHeader": "CLIENT",
+      "daysHeader": "DAYS OVERDUE",
+      "amountHeader": "AMOUNT",
+      "stageHeader": "STAGE",
+      "stageCurrent": "Not yet due",
+      "stageDay1": "Day 1 — first reminder",
+      "stageDay7": "Day 7 — follow-up",
+      "stageDay14": "Day 14 — escalation",
+      "stageDay30": "Day 30 — final notice",
+      "totalOutstanding": "TOTAL OUTSTANDING",
+      "totalFinalNotice": "AT FINAL NOTICE",
+      "client1": "Atelier Lemieux",
+      "client2": "Groupe Bérubé",
+      "client3": "Dépanneur St-Onge",
+      "client4": "Studio Marchand",
+      "client5": "Traiteur Boisvert"
+    },
+    "quebec-gst-qst-compliance": {
+      "blurb": "Type a subtotal — GST and QST are calculated the way Revenu Québec actually requires.",
+      "subtotalLabel": "SUBTOTAL (BEFORE TAX)",
+      "gstLabel": "GST (5%)",
+      "qstLabel": "QST (9.975%)",
+      "totalLabel": "TOTAL",
+      "note": "Both taxes are calculated on the subtotal, independently of each other — not GST-on-subtotal-then-QST-on-top."
+    }
+  }
+}

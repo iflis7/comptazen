@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+:root {
+  /* Quiet Precision — dark (default), near-black, technical, one copper accent */
+  --color-background: #0e0f0d;
+  --color-surface: #131512;
+  --color-surface-deep: #1e211c;
+  --color-ink: #edeae3;
+  --color-ink-muted: #a6a9a0;
+  --color-ink-faint: #6e7168;
+  --color-accent: #c97a46;
+  --color-accent-soft: #2a2116;
+  --color-border: #2a2d28;
+  --color-border-soft: #1e211c;
+
+  --font-display: var(--font-archivo);
+  --font-body: var(--font-plex-sans);
+  --font-mono: var(--font-plex-mono);
+}
+
+.dark {
+  --color-background: #0e0f0d;
+  --color-surface: #131512;
+  --color-surface-deep: #1e211c;
+  --color-ink: #edeae3;
+  --color-ink-muted: #a6a9a0;
+  --color-ink-faint: #6e7168;
+  --color-accent: #c97a46;
+  --color-accent-soft: #2a2116;
+  --color-border: #2a2d28;
+  --color-border-soft: #1e211c;
+}
+
+.light {
+  /* Same system, light neutrals — accent deepened to keep AA contrast on
+     a light background (verified: ~5:1 for accent text/buttons). */
+  --color-background: #f6f5f1;
+  --color-surface: #eceae3;
+  --color-surface-deep: #e2e0d6;
+  --color-ink: #17170f;
+  --color-ink-muted: #55564c;
+  --color-ink-faint: #6f7063;
+  --color-accent: #935a2e;
+  --color-accent-soft: #ece0d3;
+  --color-border: #dedad0;
+  --color-border-soft: #e7e4db;
+}
+
+@theme inline {
+  --color-background: var(--color-background);
+  --color-surface: var(--color-surface);
+  --color-ink: var(--color-ink);
+  --color-ink-muted: var(--color-ink-muted);
+  --color-accent: var(--color-accent);
+  --color-border: var(--color-border);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+  --font-mono: var(--font-mono);
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-ink);
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display), Arial, sans-serif;
+}
+
+.font-mono {
+  font-family: var(--font-mono), ui-monospace, monospace;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-background);
+}
+
+.ledger-row {
+  will-change: transform, opacity;
+}

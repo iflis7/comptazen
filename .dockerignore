@@ -1,0 +1,17 @@
+node_modules
+npm-debug.log*
+.next
+out
+.git
+.gitignore
+.env*
+!.env.example
+README.md
+AGENTS.md
+CLAUDE.md
+Dockerfile
+docker-compose.yml
+.dockerignore
+Three ledger design directions
+*.md
+!next-env.d.ts
