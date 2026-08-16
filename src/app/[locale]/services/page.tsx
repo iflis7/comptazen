@@ -160,7 +160,11 @@ export default async function ServicesPage({
       </section>
 
       <section className="mx-auto max-w-6xl px-6 pb-24 text-center">
-        <Button asChild size="lg">
+        <Button
+          asChild
+          size="lg"
+          className="h-auto w-full whitespace-normal px-8 py-3.5 text-center sm:h-13 sm:w-auto sm:whitespace-nowrap sm:py-0"
+        >
           <Link href="/contact">{t("cta")}</Link>
         </Button>
       </section>
