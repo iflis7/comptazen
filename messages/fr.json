@@ -190,7 +190,8 @@
       "sending": "Envoi en cours…",
       "errorBody": "Une erreur est survenue lors de l'envoi de votre message. Veuillez réessayer, ou écrivez-nous directement à info@comptazen.digital.",
       "successTitle": "C'est noté.",
-      "successBody": "On vous contactera sous peu pour réserver votre appel de découverte."
+      "successBody": "On vous contactera sous peu pour réserver votre appel de découverte.",
+      "sendAnother": "Envoyer un autre message"
     },
     "emailAlt": "Vous préférez le courriel? Écrivez-nous à"
   },

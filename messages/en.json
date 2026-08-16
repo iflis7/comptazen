@@ -190,7 +190,8 @@
       "sending": "Sending…",
       "errorBody": "Something went wrong sending your message. Please try again, or email us directly at info@comptazen.digital.",
       "successTitle": "Got it.",
-      "successBody": "We'll be in touch shortly to book your discovery call."
+      "successBody": "We'll be in touch shortly to book your discovery call.",
+      "sendAnother": "Send another message"
     },
     "emailAlt": "Prefer email? Write to"
   },

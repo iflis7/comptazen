@@ -2,6 +2,8 @@
 
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { useTranslations } from "next-intl";
+import { motion } from "motion/react";
+import { Check } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 
@@ -105,14 +107,37 @@ export function ContactForm() {
 
   if (submitted) {
     return (
-      <div className="border border-[var(--color-border)] bg-[var(--color-surface)] p-8 text-center">
+      <motion.div
+        initial={{ opacity: 0, y: 8 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.4, ease: "easeOut" }}
+        className="border border-[var(--color-border)] bg-[var(--color-surface)] p-8 text-center"
+      >
+        <motion.div
+          initial={{ opacity: 0, scale: 0.6 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.35, delay: 0.15, ease: "easeOut" }}
+          className="mx-auto mb-5 flex h-12 w-12 items-center justify-center rounded-full border border-[var(--color-accent)]"
+        >
+          <Check className="h-5 w-5 text-[var(--color-accent)]" strokeWidth={2.5} />
+        </motion.div>
         <p className="font-display text-xl font-medium text-[var(--color-ink)]">
           {t("successTitle")}
         </p>
         <p className="mt-2 text-[var(--color-ink-muted)]">
           {t("successBody")}
         </p>
-      </div>
+        <button
+          type="button"
+          onClick={() => {
+            setSubmitted(false);
+            setConsent(false);
+          }}
+          className="mt-6 font-mono text-[11px] tracking-[0.08em] text-[var(--color-ink-muted)] underline decoration-[var(--color-border)] underline-offset-4 transition-colors hover:text-[var(--color-accent)]"
+        >
+          {t("sendAnother").toUpperCase()}
+        </button>
+      </motion.div>
     );
   }
 
