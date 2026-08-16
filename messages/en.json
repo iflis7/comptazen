@@ -334,7 +334,7 @@
       },
       {
         "title": "Where your information goes",
-        "body": "When you submit the form, you're taken to a Google Form to complete your submission, and your information is stored on Google's systems rather than on servers we control. Google acts as a service provider for us in this respect. As with any service provider located outside Quebec, this transfer requires appropriate contractual safeguards to be in place — we're putting those in order as part of setting this up, consistent with Google's own data processing terms for accounts used for business purposes."
+        "body": "When you submit the form, your information is sent directly to our CRM (Zoho CRM) through a serverless function, and stored on Zoho's systems rather than on servers we control. Zoho acts as a service provider for us in this respect. As with any service provider located outside Quebec, this transfer requires appropriate contractual safeguards to be in place — Zoho offers a data processing agreement for business accounts, which we're putting in order as part of setting this up."
       },
       {
         "title": "How long we keep it",

@@ -5,17 +5,13 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 
-// Submissions go straight to a Google Form via its "pre-filled link" —
-// no backend of our own. Regenerate these if the form's questions ever
-// change: open the form → ⋮ menu → "Get pre-filled link" → fill in each
-// field with a placeholder → Get Link, then copy the entry.XXXXXXXXX
-// value that shows up for each field in the resulting URL.
-const GOOGLE_FORM_BASE =
-  "https://docs.google.com/forms/d/e/1FAIpQLSd-3zhx2WfqAOo9b69ciQEQde-mgzI_4ZyLsY5Yq_FEZV1Fgg/viewform";
-const ENTRY_NAME = "entry.2005620554";
-const ENTRY_EMAIL = "entry.1045781291";
-const ENTRY_BUSINESS = "entry.1065046570";
-const ENTRY_PAIN = "entry.839337160";
+// Submissions go to a Zoho Catalyst serverless function, which creates a
+// Lead in Zoho CRM through a Catalyst Connection — see
+// zoho-catalyst/functions/contact_lead/index.js for the backend. Set this
+// to the real deployed function URL (shown in the Catalyst console once
+// you deploy) via NEXT_PUBLIC_CONTACT_FUNCTION_URL — configure it in
+// Vercel's project env vars, same place RESEND_API_KEY used to live.
+const CONTACT_FUNCTION_URL = process.env.NEXT_PUBLIC_CONTACT_FUNCTION_URL ?? "";
 
 // Real users take at least this long to fill out the form — anything
 // faster is almost certainly a bot that skipped rendering entirely.
@@ -24,7 +20,7 @@ const MIN_SUBMIT_MS = 1500;
 export function ContactForm() {
   const t = useTranslations("ContactPage.form");
   const [submitted, setSubmitted] = useState(false);
-  const [redirecting, setRedirecting] = useState(false);
+  const [sending, setSending] = useState(false);
   const [error, setError] = useState(false);
   const [consent, setConsent] = useState(false);
   // Captured once, on mount — used as a bot-timing trap: a submission
@@ -36,7 +32,7 @@ export function ContactForm() {
     renderedAtRef.current = Date.now();
   }, []);
 
-  function handleSubmit(e: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setError(false);
 
@@ -65,17 +61,38 @@ export function ContactForm() {
       return;
     }
 
-    setRedirecting(true);
+    if (!CONTACT_FUNCTION_URL) {
+      // Not configured in this environment yet (missing
+      // NEXT_PUBLIC_CONTACT_FUNCTION_URL) — fail loudly instead of
+      // pretending to send something nowhere.
+      console.error("Contact form: NEXT_PUBLIC_CONTACT_FUNCTION_URL is not set");
+      setError(true);
+      return;
+    }
 
-    const params = new URLSearchParams({
-      usp: "pp_url",
-      [ENTRY_NAME]: name,
-      [ENTRY_EMAIL]: email,
-      [ENTRY_BUSINESS]: business,
-      [ENTRY_PAIN]: pain,
-    });
+    setSending(true);
 
-    window.location.href = `${GOOGLE_FORM_BASE}?${params.toString()}`;
+    try {
+      const res = await fetch(CONTACT_FUNCTION_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name,
+          business,
+          email,
+          pain,
+          website,
+          renderedAt: renderedAtRef.current,
+          consent,
+        }),
+      });
+      if (!res.ok) throw new Error("submit_failed");
+      setSubmitted(true);
+    } catch {
+      setError(true);
+    } finally {
+      setSending(false);
+    }
   }
 
   if (submitted) {
@@ -156,10 +173,10 @@ export function ContactForm() {
       <Button
         type="submit"
         size="lg"
-        disabled={redirecting || !consent}
+        disabled={sending || !consent}
         className="mt-2 w-fit"
       >
-        {redirecting ? t("sending") : t("submit")}
+        {sending ? t("sending") : t("submit")}
       </Button>
     </form>
   );

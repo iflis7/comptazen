@@ -334,7 +334,7 @@
       },
       {
         "title": "Où vont vos renseignements",
-        "body": "Lorsque vous soumettez le formulaire, vous êtes redirigé vers un formulaire Google pour compléter votre envoi, et vos renseignements sont conservés dans les systèmes de Google plutôt que sur des serveurs que nous contrôlons. Google agit alors à titre de fournisseur de services pour nous. Comme pour tout fournisseur de services situé hors Québec, ce transfert nécessite des mesures contractuelles appropriées — nous mettons cela en ordre dans le cadre de cette mise en place, conformément aux conditions de traitement des données de Google pour les comptes utilisés à des fins commerciales."
+        "body": "Lorsque vous soumettez le formulaire, vos renseignements sont transmis directement à notre CRM (Zoho CRM) par l'entremise d'une fonction serverless, et conservés dans les systèmes de Zoho plutôt que sur des serveurs que nous contrôlons. Zoho agit alors à titre de fournisseur de services pour nous. Comme pour tout fournisseur de services situé hors Québec, ce transfert nécessite des mesures contractuelles appropriées — Zoho offre une entente de traitement des données pour les comptes d'affaires, que nous mettons en ordre dans le cadre de cette mise en place."
       },
       {
         "title": "Durée de conservation",
