@@ -94,6 +94,11 @@ export function ContactForm() {
           website,
           renderedAt: renderedAtRef.current,
           consent,
+          // Maps to a custom CRM field via EXTRA_LEAD_FIELDS in
+          // contact_lead/index.js — add more keys the same way for future
+          // fields (create the CRM field, add one mapping line in the
+          // function, send it from here).
+          source: "ComptaZen Website — Contact Form",
         }),
       });
       if (!res.ok) throw new Error("submit_failed");
