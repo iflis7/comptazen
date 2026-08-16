@@ -75,7 +75,15 @@ export function ContactForm() {
     try {
       const res = await fetch(CONTACT_FUNCTION_URL, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        // Deliberately text/plain, not application/json: Catalyst's API
+        // Gateway doesn't forward the browser's CORS preflight (OPTIONS)
+        // through to the Advanced I/O function correctly, so
+        // application/json (which forces a preflight) never gets past
+        // it. text/plain is a CORS-safelisted content type, so the
+        // browser skips the preflight and sends this POST directly — the
+        // body is still JSON underneath, the function parses it as such
+        // (see contact_lead/index.js).
+        headers: { "Content-Type": "text/plain" },
         body: JSON.stringify({
           name,
           business,
