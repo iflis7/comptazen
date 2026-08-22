@@ -68,7 +68,7 @@ export default async function UseCasesPage({
 
               <div className="mt-5">
                 <Link
-                  href={`/services#${slug}`}
+                  href="/services#automation"
                   className="font-mono text-xs tracking-[0.06em] text-[var(--color-accent)] hover:underline"
                 >
                   {t("seePricingLink")}

@@ -33,7 +33,6 @@ export default async function AboutPage({
           {t("h1")}
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-[var(--color-ink-muted)]">
-          {/* Placeholder — needs the founder's real name and bio details. */}
           {t("founderBio")}
         </p>
       </section>

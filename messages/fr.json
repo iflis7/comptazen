@@ -14,35 +14,78 @@
     "switchToDark": "Passer au thème sombre"
   },
   "Footer": {
-    "tagline": "Automatisation des opérations comptables. Autohébergé. Construit une fois.",
+    "tagline": "Je fais le travail d'abord. Ensuite, je l'automatise. Construit une fois. À vous, pour de bon.",
     "copyright": "© {year} ComptaZen. Québec, Canada.",
     "email": "info@comptazen.digital",
     "privacyLink": "Politique de confidentialité"
   },
   "Home": {
     "meta": {
-      "title": "ComptaZen — Opérations comptables, automatisées",
-      "description": "ComptaZen conçoit des automatisations autohébergées pour le traitement des factures, le rapprochement bancaire, les recouvrements et la conformité TPS/TVQ au Québec. Le calme plutôt que le chaos."
+      "title": "ComptaZen — Je fais le travail d'abord. Ensuite, je l'automatise.",
+      "description": "ComptaZen se joint à votre entreprise comme technicien comptable, fait le travail réel, puis construit et remet le système qui le remplace — prix fixe, sans abonnement, entièrement à vous."
     },
-    "kicker": "AUTOMATISATION DES OPÉRATIONS COMPTABLES — QUÉBEC",
-    "h1": "Votre comptabilité ne devrait pas exiger un miracle chaque mois.",
-    "sub": "ComptaZen conçoit l'automatisation que votre équipe comptable remet toujours à plus tard, faute de temps — traitement des factures, rapprochement, recouvrements, conformité québécoise. Autohébergé. Construit une fois. Fonctionne selon vos règles.",
+    "kicker": "OPÉRATIONS COMPTABLES — QUÉBEC",
+    "h1": "Vous pensez embaucher un technicien comptable?",
+    "sub": "Avant l'offre d'emploi, la période de formation et le salaire récurrent — il y a une autre façon d'y arriver. Je me joins à votre entreprise et je fais le travail moi-même, puis je construis le système qui continue de le faire après mon départ.",
     "ctaPrimary": "Réserver un appel de découverte gratuit",
     "ctaNote": "30 minutes. Aucune présentation commerciale.",
-    "problem": "Quelque part dans votre entreprise, en ce moment même, quelqu'un tape manuellement des numéros de facture dans un chiffrier. Quelqu'un rapproche des transactions bancaires à la main à 23h avant la clôture de fin de mois. Quelqu'un relance un client pour un paiement en retard depuis trois semaines.",
-    "problemHighlight": "Rien de tout cela n'est un problème de stratégie. C'est un problème de plomberie — et ça se répare.",
-    "servicesLabel": "01 — SERVICES",
-    "servicesTitle": "Ce que nous réglons",
+    "problem": "En ce moment même, quelqu'un dans votre entreprise fait soit ce travail à la main à 23h avant la clôture de fin de mois — soit vous êtes sur le point de rédiger une offre d'emploi pour la personne qui le fera.",
+    "problemHighlight": "Il existe une troisième option, et elle commence avec quelqu'un qui a réellement fait le travail, pas seulement automatisé.",
+    "servicesLabel": "01 — COUCHES",
+    "servicesTitle": "L'offre",
+    "servicesIntro": "Chaque couche se vend séparément — commencez là où c'est logique pour votre entreprise.",
     "seeHowItWorks": "VOIR COMMENT ÇA MARCHE →",
-    "selfHostedLabel": "02 — POURQUOI L'AUTOHÉBERGEMENT",
-    "selfHostedTitle": "Pourquoi autohébergé et conçu sur mesure",
+    "selfHostedLabel": "02 — POURQUOI VOUS EN ÊTES PROPRIÉTAIRE",
+    "selfHostedTitle": "Pourquoi c'est entièrement à vous",
     "processLabel": "03 — PROCESSUS",
     "bookYourCall": "Réservez votre appel de découverte",
     "whyLabel": "04 — POURQUOI COMPTAZEN",
-    "whyTitle": "Pourquoi ComptaZen, honnêtement",
-    "whyBody": "ComptaZen est une jeune entreprise. Il n'y a pas encore une longue liste de clients — et nous préférons le dire clairement plutôt que de gonfler cette page avec des affirmations vagues. Ce qu'il y a bel et bien : un fondateur avec une expérience concrète en intégration ERP, en automatisation des processus et en technologie comptable, et une décision délibérée de fixer un prix sous le marché pour les premiers mandats, spécifiquement pour le prouver avec des résultats réels, pas des promesses. Si vous faites partie des premiers clients, vous ne payez pas une taxe « on apprend encore » — vous obtenez une attention de niveau fondateur, de plus en plus difficile à obtenir une fois l'horaire rempli.",
+    "whyTitle": "Pourquoi ComptaZen",
+    "whyBody": "ComptaZen est jeune — il n'y a pas encore une longue liste de clients, et je préfère le dire clairement plutôt que de gonfler cette page avec des affirmations vagues. Ce qu'il y a bel et bien : une formation concrète à la fois comme technicien comptable et comme développeur logiciel, formé à 42 Québec, et des projets d'automatisation déjà livrés — un pipeline de traitement de documents construit de bout en bout — avant même que ComptaZen existe. Quand ce site dit « je fais le travail moi-même avant de l'automatiser », ce n'est pas un argument de vente — c'est ma propre carrière, à l'envers. Les premiers clients bénéficient d'une attention de niveau fondateur, de plus en plus difficile à obtenir une fois l'horaire rempli.",
     "finalCtaTitle": "Réserver un appel de découverte gratuit",
     "finalCtaSub": "30 minutes. Aucune présentation commerciale. Seulement ce qui vous fait perdre du temps, et si on est faits l'un pour l'autre."
+  },
+  "Layers": {
+    "work": {
+      "name": "Travail",
+      "teaser": "Je m'intègre comme votre technicien comptable, à l'heure, pendant 2 à 4 mois. Le même travail qu'une personne embauchée à ce poste ferait.",
+      "buildLabel": "CE QUE JE FAIS",
+      "problem": "Vous avez besoin de quelqu'un pour réellement faire le travail de technicien comptable — rapprochement, comptes fournisseurs, déclarations, tout ce que le poste couvre — sans vous engager envers une embauche à temps plein, la période de formation, ou le salaire récurrent avant de savoir si c'est le bon choix.",
+      "build": "Je me joins à votre entreprise comme votre technicien comptable, à l'heure, pendant 2 à 4 mois. Les mêmes tâches quotidiennes qu'une personne embauchée à ce poste assumerait.",
+      "outcome": "Le travail est fait correctement, par quelqu'un qui comprend à la fois la comptabilité et ce qui vaut la peine d'être automatisé — et vous voyez exactement comment le mandat se déroule avant de vous engager envers quelque chose de plus grand.",
+      "timeline": "2 à 4 mois",
+      "price": "40 $–50 $/heure"
+    },
+    "automation": {
+      "name": "Automatisation",
+      "teaser": "Une fois que je l'ai fait à la main, j'automatise ce qui est répétitif. Prix fixe, chiffré seulement après le Travail — jamais avant.",
+      "buildLabel": "CE QU'ON CONSTRUIT",
+      "problem": "Faire le travail à la main indéfiniment n'a plus de sens une fois qu'on le comprend de première main — mais l'automatisation générique, construite par quelqu'un qui n'a jamais réellement fait le travail, a tendance à rater les vraies exceptions.",
+      "build": "Automatisation cadrée exactement selon ce que le Travail a révélé — d'un seul processus (facturation, rapprochement, relance des comptes clients, préparation TPS/TVQ) jusqu'au poste au complet. Prix fixe, chiffré après le Travail, signé comme son propre contrat.",
+      "outcome": "La part répétitive du travail tourne toute seule. Plus de saisie manuelle, plus de relances, plus de ressaisie de chiffres entre systèmes.",
+      "timeline": "2 à 6 semaines, selon la portée",
+      "price": "8 000 $–25 000 $ (un seul processus jusqu'au poste complet)"
+    },
+    "judgment": {
+      "name": "Jugement",
+      "teaser": "Une couche d'IA qui donne un premier passage aux anomalies et exceptions. Standard (infonuagique) ou Souverain (autohébergé, ajusté sur mesure). Vous gardez toujours la décision finale.",
+      "buildLabel": "CE QU'ON CONSTRUIT",
+      "problem": "L'automatisation gère le travail répétitif, mais chaque fonction comptable a une couche qui n'est pas de la pure saisie de données — anomalies, exceptions, préparation de première ligne pour l'audit — et cette couche continue habituellement de dévorer des heures chaque mois.",
+      "build": "Une couche d'IA entraînée sur vos processus réels qui donne un premier passage aux exceptions et anomalies, et ne fait remonter que ce qui a vraiment besoin d'une décision. Offerte en infonuagique (Standard) ou entièrement autohébergée et ajustée sur mesure pour les besoins sensibles ou réglementés (Souverain).",
+      "outcome": "Moins de temps passé à balayer chaque ligne pour trouver les deux qui comptent. Vous prenez toujours la décision finale — le système fait seulement le premier passage.",
+      "timeline": "Cadré une fois l'Automatisation en place",
+      "price": "8 000 $–15 000 $ (Standard) · 15 000 $–30 000 $+ (Souverain, devis personnalisé)"
+    },
+    "support-custom": {
+      "name": "Soutien et sur mesure",
+      "teaser": "Des heures prépayées pour tout ce qui vient après le transfert. Aucun abonnement. Première semaine gratuite.",
+      "buildLabel": "CE QU'ON CONSTRUIT",
+      "problem": "Les systèmes ont besoin d'ajustements — une nouvelle règle fiscale, un nouveau fournisseur, une croissance au-delà de ce qui était prévu au départ. Et parfois, ce dont vous avez besoin ne rentre proprement dans ni le Travail, ni l'Automatisation, ni le Jugement.",
+      "build": "Des heures de soutien prépayées pour les ajustements et tout ce qui suit le transfert, ou un projet sur mesure cadré pour les demandes ponctuelles qui ne rentrent pas dans l'échelle.",
+      "outcome": "Rien ne brise en silence, et rien en dehors des trois couches n'est refusé — ça reçoit simplement son propre devis.",
+      "timeline": "Au besoin",
+      "price": "120 $/heure, blocs prépayés · première semaine gratuite après le transfert"
+    }
   },
   "Services": {
     "invoice-ap-automation": {
@@ -63,7 +106,7 @@
       "timeline": "1 à 3 semaines",
       "introPrice": "1 500 $–2 500 $",
       "marketPrice": "3 000 $–6 000 $",
-      "note": "Offert aussi aux cabinets comptables et de tenue de livres qui gèrent cela pour des dizaines de dossiers clients — une seule automatisation, déployée sur l'ensemble de votre portefeuille. Tarif cabinets : 2 000 $–4 000 $ de mise en place + 300 $–800 $/mois."
+      "note": "Offert aussi aux cabinets comptables et de tenue de livres qui gèrent cela pour des dizaines de dossiers clients — une seule automatisation, déployée sur l'ensemble de votre portefeuille. Tarif cabinets : 2 000 $–4 000 $ de mise en place + 300 $–800 $/mois."
     },
     "ar-collections-automation": {
       "name": "Automatisation des comptes clients et recouvrements",
@@ -84,30 +127,20 @@
       "introPrice": "1 500 $–3 000 $",
       "marketPrice": "3 000 $–6 000 $",
       "note": "Ceci automatise le calcul, le suivi et l'organisation — pas la production de la déclaration en votre nom, qui implique des règles distinctes de représentant autorisé que nous vérifions avant de l'offrir en service groupé."
-    },
-    "custom-special-projects": {
-      "name": "Projets sur mesure et mandats spéciaux",
-      "problem": "Votre entreprise carbure à quelque chose qui ne rentre pas proprement dans les factures, la conciliation ou les recouvrements — une migration de données ponctuelle, un outil interne particulier, un processus que vous seul comprenez vraiment. Un logiciel standard ne s'adapte pas à ça, et embaucher une équipe de dev au complet pour un seul projet n'a pas de sens non plus.",
-      "build": "D'abord un appel pour cadrer le besoin, ensuite ce que le problème demande réellement — un outil interne sur mesure, une migration de données ponctuelle, une intégration entre deux systèmes qui n'étaient jamais censés se parler, ou l'automatisation d'un processus propre à la façon dont vous opérez.",
-      "outcome": "Ce qui était manuel, fragile ou tenu ensemble par des chiffriers est remplacé par quelque chose bâti pour votre situation exacte — pas un compromis forcé dans le moule de quelqu'un d'autre.",
-      "timeline": "Selon la portée",
-      "introPrice": "Devis personnalisé",
-      "marketPrice": "—",
-      "note": ""
     }
   },
   "SelfHosted": {
     "data": {
-      "label": "Données",
-      "text": "Vos données financières restent sur une infrastructure que vous contrôlez — jamais acheminées à travers un empilement de plateformes tierces."
+      "label": "Propriété",
+      "text": "Vous êtes propriétaire du système, un point c'est tout — pas un abonnement que vous louez. Si jamais nos chemins se séparent, il continue de tourner, et il reste à vous."
     },
     "cost": {
       "label": "Coût",
-      "text": "Aucun abonnement SaaS par processus qui s'accumule avec le temps. Un seul système, construit une fois, facturé une fois."
+      "text": "Aucun abonnement SaaS par processus qui s'accumule avec le temps. L'Automatisation et le Jugement sont chacun construits une fois, facturés une fois."
     },
     "fit": {
       "label": "Adéquation",
-      "text": "Conçu autour de la façon dont votre entreprise approuve réellement les dépenses et clôture ses livres — pas forcé dans un modèle générique."
+      "text": "Conçu autour de la façon dont votre entreprise approuve réellement les dépenses et clôture ses livres — parce que j'ai fait le travail moi-même avant d'en automatiser quoi que ce soit."
     },
     "audit": {
       "label": "Vérification",
@@ -117,59 +150,49 @@
   "Process": {
     "01": {
       "title": "Appel de découverte",
-      "description": "Gratuit, environ 30 minutes. On détermine ensemble quel irritant pèse le plus lourd pour votre entreprise — sans présentation commerciale."
+      "description": "Gratuit, environ 30 minutes. On détermine ensemble si ça correspond — sans présentation commerciale."
     },
     "02": {
-      "title": "Proposition à prix fixe",
-      "description": "Portée claire, prix clair, pas de « on verra en cours de route »."
+      "title": "Travail",
+      "description": "Je me joins à votre entreprise comme votre technicien comptable, à l'heure, pendant 2 à 4 mois. Du vrai travail, pas un diagnostic — rapprochement, comptes fournisseurs, déclarations, tout ce que le poste couvre."
     },
     "03": {
-      "title": "On le construit",
-      "description": "1 à 3 semaines pour un seul service, plus long pour un forfait. Des points d'étape réguliers, pas une boîte noire."
+      "title": "Automatisation",
+      "description": "Une fois que j'ai fait le travail moi-même, je sais exactement ce qui vaut la peine d'être automatisé. Prix fixe, chiffré seulement une fois le Travail terminé — signé comme son propre contrat séparé, jamais deviné à l'avance."
     },
     "04": {
-      "title": "Remise, avec formation",
+      "title": "Transfert, avec formation",
       "description": "Documentation, plus une vraie séance de démonstration — un système que vous comprenez, pas seulement un système qui fonctionne."
     }
   },
   "ServicesPage": {
     "meta": {
       "title": "Services — ComptaZen",
-      "description": "Automatisation des factures et comptes fournisseurs, rapprochement bancaire, comptes clients et recouvrements, conformité TPS/TVQ — autohébergé, conçu sur mesure."
+      "description": "Quatre couches, vendues séparément : Travail (intégré comme technicien comptable), Automatisation (prix fixe, cadré après le Travail), Jugement (premier passage IA sur les exceptions), et Soutien et sur mesure."
     },
     "kicker": "SERVICES",
-    "h1": "Quatre services principaux — et de la place pour tout le reste.",
-    "intro": "Chacun se vend seul ou en forfait. Chaque prix ci-dessous est le tarif de lancement pour les premiers mandats — il se rapprochera du prix du marché à mesure qu'on bâtit un historique, donc les premiers clients obtiennent les meilleures conditions. Si votre besoin ne correspond à aucun des quatre, c'est à ça que sert Projets sur mesure et mandats spéciaux.",
-    "introEnded": "Chaque service se vend seul ou en forfait. Si votre besoin ne correspond à aucun des quatre, c'est à ça que sert Projets sur mesure et mandats spéciaux.",
+    "h1": "Une méthode, quatre couches — prenez ce dont vous avez besoin.",
+    "intro": "Chaque couche se vend et se contracte séparément. L'Automatisation n'est jamais chiffrée à l'aveugle — elle est cadrée et chiffrée seulement une fois le Travail réellement fait, et signée comme son propre contrat.",
     "problemLabel": "LE PROBLÈME",
-    "buildLabel": "CE QU'ON CONSTRUIT",
     "outcomeLabel": "CE QUI CHANGE",
     "timelineLabel": "DÉLAI",
-    "priceLabel": "PRIX DE LANCEMENT",
-    "priceLabelEnded": "TARIF",
-    "marketPriceNote": "{marketPrice} au prix du marché, plus tard",
-    "bundleTitle": "Prix forfaitaire",
-    "bundleIntro": "Les trois services principaux destinés aux propriétaires (comptes fournisseurs, rapprochement, comptes clients) ensemble :",
-    "bundlePrice": "3 500 $–5 500 $",
-    "bundleSuffix": "en tarif de lancement, contre 4 500 $–7 500 $ si facturés séparément.",
-    "alsoAvailableTitle": "Également offert, sur demande",
-    "alsoAvailableBody": "Tableaux de bord de trésorerie et de rapports (idéalement construits une fois ce qui précède déjà automatisé), réception de documents en période d'impôts (saisonnier), intégration de systèmes avec vos autres outils d'affaires, et quelques autres besoins qu'on peut chiffrer une fois qu'on connaît le vôtre. Ce n'est pas l'offre principale, mais si l'un d'eux est exactement votre problème, demandez.",
-    "cta": "Réservez un appel de découverte gratuit pour déterminer lequel vous convient"
+    "priceLabel": "PRIX",
+    "cta": "Réservez un appel de découverte gratuit pour déterminer par où commencer"
   },
   "AboutPage": {
     "meta": {
       "title": "À propos — ComptaZen",
-      "description": "Pourquoi ComptaZen existe, et pourquoi chaque système qu'elle construit est autohébergé et conçu sur mesure."
+      "description": "Pourquoi ComptaZen fait le travail à la main d'abord, puis construit et remet le système qui le fait tourner — opérations comptables pour les PME québécoises."
     },
     "kicker": "À PROPOS",
     "h1": "Pourquoi ça existe",
-    "founderBio": "[Nom du fondateur] a passé des années à travailler en intégration ERP, en automatisation des processus et en technologie comptable — à combler l'écart entre la façon dont une entreprise fonctionne réellement et les systèmes censés la soutenir. ComptaZen existe parce que cet écart est le même, encore et encore, dans presque tous les bureaux administratifs des petites entreprises : du vrai travail fait à la main que le logiciel devrait faire à sa place.",
+    "founderBio": "Hafid Saadi est technicien comptable et développeur logiciel, formé en génie logiciel à 42 Québec. Cette combinaison est la raison d'être de ComptaZen : le bureau administratif de presque chaque petite entreprise a la même lacune — du travail réel encore fait à la main que le logiciel devrait faire à sa place — et presque personne qui essaie d'y remédier n'a réellement fait le travail lui-même en premier.",
     "approachLabel": "L'APPROCHE",
-    "approachTitle": "Construit et hébergé, jamais bricolé",
-    "approachBody": "ComptaZen construit et héberge elle-même chaque système — rien de bricolé à partir de plateformes no-code tierces, rien qui achemine vos données financières à travers les outils d'une autre entreprise. Si un système touche à la façon dont l'argent circule dans votre entreprise, vous devriez pouvoir savoir exactement qui y touche, et comment.",
+    "approachTitle": "Le faire, puis le construire",
+    "approachBody": "Chaque mandat commence de la même façon : le travail est fait à la main avant que quoi que ce soit soit automatisé. Ce n'est qu'une fois que c'est réellement fait que le système est cadré et construit — entièrement à vous, rien de bricolé à partir de plateformes no-code tierces, rien qui achemine vos données financières à travers des outils que vous ne contrôlez pas.",
     "headedLabel": "OÙ ÇA S'EN VA",
     "headedTitle": "Un début volontairement ciblé",
-    "headedBody": "ComptaZen commence délibérément de façon ciblée : une poignée de problèmes d'automatisation précis, bien réglés, pour de vrais clients, avant tout le reste.",
+    "headedBody": "ComptaZen commence délibérément par une seule chose : les opérations comptables pour les PME québécoises, faites par quelqu'un qui a réellement fait le travail. La même méthode — le faire, puis le construire — s'étend naturellement à la couche Jugement ensuite : une IA entraînée sur des processus réels, pas théoriques.",
     "cta": "Parlons de ce qui ralentit votre entreprise"
   },
   "ContactPage": {
@@ -198,12 +221,12 @@
   "HowItWorksPage": {
     "meta": {
       "title": "Comment ça marche — ComptaZen",
-      "description": "Quatre étapes : un appel de découverte gratuit, une proposition à prix fixe, une réalisation de 1 à 3 semaines, et une vraie remise avec formation."
+      "description": "Quatre étapes : un appel de découverte gratuit, le Travail intégré comme technicien comptable, l'Automatisation à prix fixe cadrée après le Travail, et le transfert avec formation."
     },
     "kicker": "COMMENT ÇA MARCHE",
     "h1": "Quatre étapes. C'est tout le processus.",
     "afterLabel": "Par la suite :",
-    "afterBody": "un forfait mensuel optionnel pour la surveillance et les mises à jour, dont le prix est établi une fois qu'il y a un vrai système à maintenir — pas deviné à l'avance.",
+    "afterBody": "des heures prépayées pour les ajustements et tout ce qui suit le transfert, vendues en blocs, première semaine gratuite. Aucun forfait mensuel, aucun abonnement — vous ne payez de nouveau que si, et quand, vous avez réellement besoin de quelque chose.",
     "cta": "Commencer par un appel de découverte"
   },
   "ServiceAnimations": {
@@ -236,15 +259,12 @@
       "qst": "TVQ (9,975%)",
       "total": "TOTAL",
       "archived": "ARCHIVÉ"
-    },
-    "custom-special-projects": {
-      "label": "PORTÉE : OUVERTE"
     }
   },
   "ProcessAnimation": {
     "stepDiscovery": "DÉCOUVERTE",
-    "stepProposal": "PROPOSITION",
-    "stepBuild": "CONSTRUCTION",
+    "stepProposal": "TRAVAIL",
+    "stepBuild": "AUTOMATISATION",
     "stepHandoff": "TRANSFERT",
     "status": "✓ EN SERVICE"
   },
@@ -255,7 +275,7 @@
     },
     "kicker": "CAS D'USAGE",
     "h1": "Voyez-le fonctionner, ne vous contentez pas d'en entendre parler.",
-    "intro": "Chaque démo ci-dessous fonctionne en direct dans votre navigateur — modifiez les données d'exemple et regardez le résultat se recalculer en temps réel. Ce sont des versions simplifiées de la vraie logique, pas des captures d'écran ni des animations scriptées : l'idée est de montrer que l'automatisation derrière est réelle.",
+    "intro": "Chaque démo ci-dessous fonctionne en direct dans votre navigateur — modifiez les données d'exemple et regardez le résultat se recalculer en temps réel. Ce sont des versions simplifiées de la vraie logique, pas des captures d'écran ni des animations scriptées : l'idée est de montrer à quoi ressemble concrètement la Couche 02 — Automatisation — une fois que le Travail a déjà révélé ce qui vaut la peine d'être construit.",
     "tryLabel": "ESSAYEZ",
     "seePricingLink": "VOIR LE PRIX ET LA PORTÉE →",
     "cta": "Réservez un appel de découverte gratuit pour voir lequel correspond à votre entreprise"
@@ -319,15 +339,15 @@
     "sections": [
       {
         "title": "Qui nous sommes",
-        "body": "ComptaZen est une pratique d'automatisation comptable basée au Québec. Pour toute question sur cette politique ou sur vos renseignements personnels, écrivez-nous à info@comptazen.digital."
+        "body": "ComptaZen est une pratique de diagnostics des processus comptables et d'automatisation basée au Québec. Pour toute question sur cette politique ou sur vos renseignements personnels, écrivez-nous à info@comptazen.digital."
       },
       {
         "title": "Ce que nous recueillons",
-        "body": "Notre formulaire de contact sur comptazen.digital recueille : votre nom, le nom de votre entreprise, votre adresse courriel, et ce que vous écrivez dans le champ « quel est le processus le plus pénible ». Nous ne recueillons rien d'autre par ce formulaire, et nous n'utilisons aucun témoin de suivi ni script d'analyse sur ce site."
+        "body": "Notre formulaire de contact sur comptazen.digital recueille : votre nom, le nom de votre entreprise, votre adresse courriel, et ce que vous écrivez dans le champ « quel est le processus le plus pénible ». Nous ne recueillons rien d'autre par ce formulaire, et nous n'utilisons aucun témoin de suivi ni script d'analyse sur ce site."
       },
       {
         "title": "Pourquoi nous le recueillons",
-        "body": "Nous utilisons ces renseignements dans un seul but : répondre à votre demande et, si vous décidez de poursuivre, planifier et préparer un appel de découverte. Nous ne les utilisons pas à des fins de marketing, nous ne les vendons pas, et nous ne les partageons avec personne, sauf le fournisseur de services décrit ci-dessous, strictement pour nous transmettre votre message."
+        "body": "Nous utilisons ces renseignements dans un seul but : répondre à votre demande et, si vous décidez de poursuivre, planifier et préparer un appel de découverte. Nous ne les utilisons pas à des fins de marketing, nous ne les vendons pas, et nous ne les partageons avec personne, sauf le fournisseur de services décrit ci-dessous, strictement pour nous transmettre votre message."
       },
       {
         "title": "Votre consentement",
@@ -343,7 +363,7 @@
       },
       {
         "title": "Vos droits",
-        "body": "En vertu de la Loi sur la protection des renseignements personnels dans le secteur privé du Québec, vous pouvez nous demander, sans frais : de voir les renseignements personnels que nous détenons à votre sujet ; de les corriger s'ils sont inexacts ou incomplets ; ou de les supprimer. Écrivez à info@comptazen.digital et nous répondrons dans un délai de 30 jours."
+        "body": "En vertu de la Loi sur la protection des renseignements personnels dans le secteur privé du Québec, vous pouvez nous demander, sans frais : de voir les renseignements personnels que nous détenons à votre sujet ; de les corriger s'ils sont inexacts ou incomplets ; ou de les supprimer. Écrivez à info@comptazen.digital et nous répondrons dans un délai de 30 jours."
       },
       {
         "title": "Sécurité",

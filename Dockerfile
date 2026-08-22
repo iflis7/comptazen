@@ -14,7 +14,7 @@ WORKDIR /app
 COPY . .
 ENV NODE_ENV=development
 ENV NEXT_TELEMETRY_DISABLED=1
-EXPOSE 3000
+EXPOSE 3002
 CMD ["npm", "run", "dev"]
 
 # ---- builder: produce the standalone production build ----
@@ -34,7 +34,7 @@ WORKDIR /app
 
 ENV NODE_ENV=production
 ENV NEXT_TELEMETRY_DISABLED=1
-ENV PORT=3000
+ENV PORT=3002
 ENV HOSTNAME=0.0.0.0
 
 RUN addgroup --system --gid 1001 nodejs \

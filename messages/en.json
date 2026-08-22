@@ -14,35 +14,78 @@
     "switchToDark": "Switch to dark theme"
   },
   "Footer": {
-    "tagline": "Accounting operations, automated. Self-hosted. Built once.",
+    "tagline": "I do the job first. Then I automate it. Built once. Yours outright.",
     "copyright": "© {year} ComptaZen. Québec, Canada.",
     "email": "info@comptazen.digital",
     "privacyLink": "Privacy Policy"
   },
   "Home": {
     "meta": {
-      "title": "ComptaZen — Accounting operations, automated",
-      "description": "ComptaZen builds self-hosted automation for invoice processing, reconciliation, collections, and Quebec GST/QST compliance. Calm instead of chaos."
+      "title": "ComptaZen — Do the job first. Then automate it.",
+      "description": "ComptaZen embeds as your accounting technician, does the actual work, then builds and hands off the system that replaces it — fixed price, no subscription, yours outright."
     },
-    "kicker": "ACCOUNTING OPERATIONS AUTOMATION — QUEBEC",
-    "h1": "Your books shouldn't need a miracle every month.",
-    "sub": "ComptaZen builds the automation your accounting team keeps meaning to set up but never has time for — invoice processing, reconciliation, collections, Quebec compliance. Self-hosted. Built once. Running on your terms.",
+    "kicker": "ACCOUNTING OPERATIONS — QUÉBEC",
+    "h1": "Thinking about hiring an accounting technician?",
+    "sub": "Before the job posting, the ramp-up, and the recurring salary — there's another way in. I join your business and do the work myself, then build the system that keeps doing it after I leave.",
     "ctaPrimary": "Book a free discovery call",
     "ctaNote": "30 minutes. No pitch deck.",
-    "problem": "Somewhere in your business right now, someone is manually typing invoice numbers into a spreadsheet. Someone is matching bank transactions by hand at 11pm before month-end close. Someone is chasing a client for a payment that was due three weeks ago.",
-    "problemHighlight": "None of this is a strategy problem. It's a plumbing problem — and it's fixable.",
-    "servicesLabel": "01 — SERVICES",
-    "servicesTitle": "What we fix",
+    "problem": "Right now, someone in your business is either doing this by hand at 11pm before month-end close — or you're about to write a job posting for the person who will.",
+    "problemHighlight": "There's a third option, and it starts with someone who's actually done the job, not just automated it.",
+    "servicesLabel": "01 — LAYERS",
+    "servicesTitle": "The offer",
+    "servicesIntro": "Each layer is sold on its own — start wherever makes sense for your business.",
     "seeHowItWorks": "SEE HOW IT WORKS →",
-    "selfHostedLabel": "02 — WHY SELF-HOSTED",
-    "selfHostedTitle": "Why self-hosted, custom-built",
+    "selfHostedLabel": "02 — WHY YOU OWN IT",
+    "selfHostedTitle": "Why you own it outright",
     "processLabel": "03 — PROCESS",
     "bookYourCall": "Book your discovery call",
     "whyLabel": "04 — WHY COMPTAZEN",
-    "whyTitle": "Why ComptaZen, honestly",
-    "whyBody": "ComptaZen is new. There's no long client roster yet — and we'd rather say that plainly than pad this page with vague claims. What there is: a founder with real, hands-on background in ERP integration, workflow automation, and accounting technology, and a deliberate decision to price the first few engagements below market specifically to prove this out with real results, not promises. If you're one of the first few clients, you're not paying a “we're still figuring this out” tax — you're getting a founder-level focus that gets harder to get once the calendar fills up.",
+    "whyTitle": "Why ComptaZen",
+    "whyBody": "ComptaZen is new — there's no long client roster yet, and it's worth saying that plainly rather than padding this page with vague claims. What there is: a real, hands-on background as both an accounting technician and a software developer trained at 42 Québec, and automation work I've already shipped — a document-processing pipeline built end-to-end — before ComptaZen existed. When this site says “I do the job myself before I automate it,” it isn't a sales angle — it's my own career, in reverse order. Early clients get founder-level focus that gets harder to come by once the calendar fills up.",
     "finalCtaTitle": "Book a free discovery call",
     "finalCtaSub": "30 minutes. No pitch deck. Just what's eating your time and whether we're a fit."
+  },
+  "Layers": {
+    "work": {
+      "name": "Work",
+      "teaser": "I embed as your accounting technician, hourly, for 2–4 months. The same work a hire in that seat would do.",
+      "buildLabel": "WHAT I DO",
+      "problem": "You need someone to actually do the accounting technician job — reconciliation, AP, filings, whatever the role covers — without committing to a full-time hire, the ramp-up, or the recurring salary before you know if it's the right fit.",
+      "build": "I join your business as your accounting technician, hourly, for 2–4 months. The same day-to-day tasks a hire in that seat would handle.",
+      "outcome": "The work gets done properly, by someone who understands both the accounting and what's worth automating — and you see exactly how the engagement runs before committing to anything bigger.",
+      "timeline": "2–4 months",
+      "price": "$40–$50/hour"
+    },
+    "automation": {
+      "name": "Automation",
+      "teaser": "Once I've done it by hand, I automate what's repeatable. Fixed price, quoted only after Work — never before.",
+      "buildLabel": "WHAT WE BUILD",
+      "problem": "Doing the work by hand forever doesn't make sense once it's understood firsthand — but generic automation, built by someone who's never actually done the job, tends to miss the real exceptions.",
+      "build": "Automation scoped to exactly what Work uncovered — anything from a single workflow (invoicing, reconciliation, AR follow-up, GST/QST filing prep) up to the full role. Fixed price, quoted after Work, signed as its own contract.",
+      "outcome": "The repeatable share of the job runs on its own. No manual entry, no chasing, no re-keying numbers between systems.",
+      "timeline": "2–6 weeks, depending on scope",
+      "price": "$8,000–$25,000 (single process to full role)"
+    },
+    "judgment": {
+      "name": "Judgment",
+      "teaser": "An AI layer that gives anomalies and exceptions a first pass. Standard (cloud) or Sovereign (self-hosted, fine-tuned). You always make the final call.",
+      "buildLabel": "WHAT WE BUILD",
+      "problem": "Automation handles the repeatable work, but every accounting function has a layer that isn't pure data entry — anomalies, exceptions, first-pass audit prep — and that layer usually still eats hours every month.",
+      "build": "An AI layer trained on your actual processes that gives exceptions and anomalies a first pass, and only surfaces what genuinely needs a decision. Available cloud-hosted (Standard) or fully self-hosted and fine-tuned for data-sensitive or regulated needs (Sovereign).",
+      "outcome": "Less time spent scanning every line to find the two that matter. You still make every final call — the system just does the first read.",
+      "timeline": "Scoped after Automation is live",
+      "price": "$8,000–$15,000 (Standard) · $15,000–$30,000+ (Sovereign, custom quoted)"
+    },
+    "support-custom": {
+      "name": "Support & Custom",
+      "teaser": "Prepaid hours for anything after handoff. No subscription. First week free.",
+      "buildLabel": "WHAT WE BUILD",
+      "problem": "Systems need adjusting — a new tax rule, a new vendor, growth past what was originally scoped. And sometimes what's needed doesn't fit neatly into Work, Automation, or Judgment at all.",
+      "build": "Prepaid support hours for adjustments and anything post-handoff, or a scoped custom project for one-off requests that don't fit the ladder.",
+      "outcome": "Nothing breaks silently, and nothing outside the three layers gets turned away — it just gets its own quote.",
+      "timeline": "As needed",
+      "price": "$120/hour, prepaid blocks · first week after handoff free"
+    }
   },
   "Services": {
     "invoice-ap-automation": {
@@ -84,30 +127,20 @@
       "introPrice": "$1,500–$3,000",
       "marketPrice": "$3,000–$6,000",
       "note": "This automates calculation, tracking, and organization — not filing on your behalf, which involves separate authorized-representative rules we verify before offering as a bundled service."
-    },
-    "custom-special-projects": {
-      "name": "Custom & Special Projects",
-      "problem": "Your business runs on something that doesn't fit neatly into invoices, reconciliation, or collections — a one-off data migration, a specific internal tool, a process only you understand. Off-the-shelf software doesn't bend to fit it, and hiring a full dev team for one project doesn't make sense either.",
-      "build": "A scoped call first, then whatever the problem actually needs — a custom internal tool, a one-off data migration, an integration between systems that were never meant to talk to each other, or automation built around how your business actually runs.",
-      "outcome": "Whatever was manual, brittle, or held together with spreadsheets gets replaced with something built for your exact situation — not a workaround forced into someone else's template.",
-      "timeline": "Depends on scope",
-      "introPrice": "Custom quote",
-      "marketPrice": "—",
-      "note": ""
     }
   },
   "SelfHosted": {
     "data": {
-      "label": "Data",
-      "text": "Your financial data stays on infrastructure you control — never routed through a stack of third-party platforms."
+      "label": "Ownership",
+      "text": "You own the system outright — not a subscription you're renting. If we ever part ways, it keeps running, and it's still yours."
     },
     "cost": {
       "label": "Cost",
-      "text": "No per-workflow SaaS subscriptions stacking up over time. One system, built once, priced once."
+      "text": "No per-workflow SaaS subscriptions stacking up over time. Automation and Judgment are each built once, priced once."
     },
     "fit": {
       "label": "Fit",
-      "text": "Built around how your business actually approves spend and closes books — not bent to fit a generic template."
+      "text": "Built around how your business actually approves spend and closes books — because I did the work myself before automating any of it."
     },
     "audit": {
       "label": "Audit",
@@ -117,15 +150,15 @@
   "Process": {
     "01": {
       "title": "Discovery call",
-      "description": "Free, about 30 minutes. We figure out which pain point is loudest for your business — no pitch deck."
+      "description": "Free, about 30 minutes. We figure out if this is a fit — no pitch deck."
     },
     "02": {
-      "title": "Fixed-price proposal",
-      "description": "Clear scope, clear price, no “we'll figure it out as we go.”"
+      "title": "Work",
+      "description": "I join your business as your accounting technician, hourly, for 2–4 months. Real work, not a diagnostic — reconciliation, AP, filings, whatever the role covers."
     },
     "03": {
-      "title": "We build it",
-      "description": "1–3 weeks for a single service, longer for a bundle. Regular check-ins, not a black box."
+      "title": "Automation",
+      "description": "Once I've done the job myself, I know exactly what's worth automating. Fixed price, quoted only after Work is done — signed as its own separate contract, never guessed at upfront."
     },
     "04": {
       "title": "Handoff, with training",
@@ -135,41 +168,31 @@
   "ServicesPage": {
     "meta": {
       "title": "Services — ComptaZen",
-      "description": "Invoice & AP automation, bank reconciliation, AR/collections, and Quebec GST/QST compliance automation — self-hosted, custom-built."
+      "description": "Four layers, each sold on its own: Work (embedded as your accounting technician), Automation (fixed price, scoped after Work), Judgment (AI first-pass on exceptions), and Support & Custom."
     },
     "kicker": "SERVICES",
-    "h1": "Four core services — and room for whatever else you need.",
-    "intro": "Each core service is sold on its own or bundled. Every price below is the intro rate for early engagements — it moves toward market rate as we build a track record, so the earliest clients get the best terms. If what you need doesn't match any of the four, that's what Custom & Special Projects is for.",
-    "introEnded": "Each service is sold on its own or bundled. If what you need doesn't match any of the four, that's what Custom & Special Projects is for.",
+    "h1": "One method, four layers — take what you need.",
+    "intro": "Each layer is sold and contracted on its own. Automation is never priced blind — it's scoped and quoted only after Work is actually done, and signed as its own contract.",
     "problemLabel": "THE PROBLEM",
-    "buildLabel": "WHAT WE BUILD",
     "outcomeLabel": "WHAT CHANGES",
     "timelineLabel": "TIMELINE",
-    "priceLabel": "LAUNCH PRICE",
-    "priceLabelEnded": "PRICE",
-    "marketPriceNote": "{marketPrice} at market rate, later",
-    "bundleTitle": "Bundle pricing",
-    "bundleIntro": "All three core direct-to-owner services (AP, Reconciliation, AR) together:",
-    "bundlePrice": "$3,500–$5,500",
-    "bundleSuffix": "intro, versus $4,500–$7,500 if priced separately.",
-    "alsoAvailableTitle": "Also available, on request",
-    "alsoAvailableBody": "Cash flow and reporting dashboards (best built after the above are already automated), tax-season document intake (seasonal), systems integration across your other business tools, and a few other things we can quote once we know what you need. These aren't the headline offer, but if one of them is exactly your problem, ask.",
-    "cta": "Book a free discovery call to figure out which one fits"
+    "priceLabel": "PRICE",
+    "cta": "Book a free discovery call to figure out where to start"
   },
   "AboutPage": {
     "meta": {
       "title": "About — ComptaZen",
-      "description": "Why ComptaZen exists, and why every system it builds is self-hosted and custom-built."
+      "description": "Why ComptaZen does the job by hand first, then builds and hands off the system that runs it — accounting operations for Quebec SMEs."
     },
     "kicker": "ABOUT",
     "h1": "Why this exists",
-    "founderBio": "[Founder name] spent years working in ERP integration, workflow automation, and accounting technology — bridging the gap between how a business actually operates and the systems meant to support it. ComptaZen exists because that gap is the same gap, over and over, in almost every small business's back office: real work being done by hand that software should be doing instead.",
+    "founderBio": "Hafid Saadi is an accounting technician and a software developer, trained in software engineering at 42 Québec. That combination is the reason ComptaZen exists: almost every small business's back office has the same gap — real work still done by hand that software should be doing instead — and almost nobody trying to fix it has actually done the work themselves first.",
     "approachLabel": "THE APPROACH",
-    "approachTitle": "Built and hosted, never glued together",
-    "approachBody": "ComptaZen builds and hosts every system itself — nothing glued together from third-party no-code platforms, nothing routing your financial data through another company's tools. If a system touches how money moves through your business, you should be able to trust exactly who's touching it and how.",
+    "approachTitle": "Do it, then build it",
+    "approachBody": "Every engagement starts the same way: the job gets done by hand before anything gets automated. Only once it's actually been done does the system get scoped and built — yours outright, nothing glued together from third-party no-code platforms, nothing routing your financial data through tools you don't control.",
     "headedLabel": "WHERE THIS IS HEADED",
     "headedTitle": "Starting narrow, on purpose",
-    "headedBody": "ComptaZen is deliberately starting narrow: a handful of specific automation problems, done well, for real clients, before anything else.",
+    "headedBody": "ComptaZen is deliberately starting with one thing: accounting operations for Quebec SMEs, done by someone who's actually done the job. The same method — do it, then build it — extends naturally to the judgment layer next: AI trained on real processes, not theoretical ones.",
     "cta": "Let's talk about what's slowing your business down"
   },
   "ContactPage": {
@@ -198,12 +221,12 @@
   "HowItWorksPage": {
     "meta": {
       "title": "How It Works — ComptaZen",
-      "description": "Four steps: a free discovery call, a fixed-price proposal, a 1-3 week build, and a real handoff with training."
+      "description": "Four steps: a free discovery call, embedded Work as your accounting technician, fixed-price Automation scoped after Work, and handoff with training."
     },
     "kicker": "HOW IT WORKS",
     "h1": "It's four steps. That's the whole process.",
     "afterLabel": "After that:",
-    "afterBody": "an optional monthly retainer for monitoring and updates, priced once there's a real system in place to maintain — not guessed at upfront.",
+    "afterBody": "prepaid hours for adjustments and anything post-handoff, sold in blocks, first week free. No monthly retainer, no subscription — you only pay again if and when you actually need something.",
     "cta": "Start with a discovery call"
   },
   "ServiceAnimations": {
@@ -236,15 +259,12 @@
       "qst": "QST (9.975%)",
       "total": "TOTAL",
       "archived": "ARCHIVED"
-    },
-    "custom-special-projects": {
-      "label": "SCOPE: OPEN"
     }
   },
   "ProcessAnimation": {
     "stepDiscovery": "DISCOVERY",
-    "stepProposal": "PROPOSAL",
-    "stepBuild": "BUILD",
+    "stepProposal": "WORK",
+    "stepBuild": "AUTOMATION",
     "stepHandoff": "HANDOFF",
     "status": "✓ RUNNING"
   },
@@ -255,7 +275,7 @@
     },
     "kicker": "USE CASES",
     "h1": "See it work, not just hear about it.",
-    "intro": "Every demo below runs live in your browser — edit the sample data and watch it recompute in real time. These are simplified stand-ins for the real logic, not screenshots or scripted animations: the point is to show the underlying automation is real.",
+    "intro": "Every demo below runs live in your browser — edit the sample data and watch it recompute in real time. These are simplified stand-ins for the real logic, not screenshots or scripted animations: the point is to show what Layer 02 — Automation — actually looks like once Work has already surfaced what's worth building.",
     "tryLabel": "TRY IT",
     "seePricingLink": "SEE PRICING & SCOPE →",
     "cta": "Book a free discovery call to see which of these fits your business"
@@ -319,7 +339,7 @@
     "sections": [
       {
         "title": "Who we are",
-        "body": "ComptaZen is a Quebec-based accounting automation practice. For any question about this policy or your personal information, contact us at info@comptazen.digital."
+        "body": "ComptaZen is a Quebec-based accounting process diagnostics and automation practice. For any question about this policy or your personal information, contact us at info@comptazen.digital."
       },
       {
         "title": "What we collect",

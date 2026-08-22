@@ -3,7 +3,7 @@ import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { LedgerAnimation } from "@/components/ledger-animation";
 import {
-  SERVICE_SLUGS,
+  LAYER_SLUGS,
   PROCESS_KEYS,
   SELF_HOSTED_KEYS,
 } from "@/lib/site-data";
@@ -17,7 +17,7 @@ export default async function Home({
   setRequestLocale(locale);
 
   const t = await getTranslations("Home");
-  const tServices = await getTranslations("Services");
+  const tLayers = await getTranslations("Layers");
   const tSelfHosted = await getTranslations("SelfHosted");
   const tProcess = await getTranslations("Process");
 
@@ -72,29 +72,30 @@ export default async function Home({
           </span>
         </div>
         <div className="mx-auto max-w-6xl px-6">
-          {SERVICE_SLUGS.map((slug, i) => (
-            <div
+          <p className="mb-6 max-w-2xl text-sm leading-relaxed text-[var(--color-ink-muted)]">
+            {t("servicesIntro")}
+          </p>
+          {LAYER_SLUGS.map((slug, i) => (
+            <Link
               key={slug}
-              className="grid grid-cols-1 gap-4 border-t border-[var(--color-border-soft)] py-7 sm:grid-cols-[48px_1fr_auto] sm:items-start sm:gap-8"
+              href={`/services#${slug}`}
+              className="group grid grid-cols-1 gap-4 border-t border-l-2 border-[var(--color-border-soft)] border-l-transparent py-7 pl-4 -ml-4 transition-colors duration-200 hover:border-l-[var(--color-accent)] hover:bg-[var(--color-surface)] sm:grid-cols-[48px_1fr_auto] sm:items-start sm:gap-8"
             >
               <span className="font-mono text-xs text-[var(--color-accent)]">
                 {String(i + 1).padStart(2, "0")}
               </span>
               <div>
                 <h3 className="font-display text-xl font-medium text-[var(--color-ink)]">
-                  {tServices(`${slug}.name`)}
+                  {tLayers(`${slug}.name`)}
                 </h3>
                 <p className="mt-2 max-w-2xl text-sm leading-relaxed text-[var(--color-ink-muted)]">
-                  {tServices(`${slug}.build`)}
+                  {tLayers(`${slug}.teaser`)}
                 </p>
               </div>
-              <Link
-                href={`/services#${slug}`}
-                className="font-mono text-xs tracking-[0.06em] text-[var(--color-accent)] hover:underline sm:self-center sm:whitespace-nowrap"
-              >
+              <span className="font-mono text-xs tracking-[0.06em] text-[var(--color-accent)] transition-transform duration-200 group-hover:translate-x-1 sm:self-center sm:whitespace-nowrap">
                 {t("seeHowItWorks")}
-              </Link>
-            </div>
+              </span>
+            </Link>
           ))}
         </div>
       </section>
