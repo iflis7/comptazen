@@ -4,6 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { UseCaseDemo } from "@/components/use-case-demos";
 import { USE_CASE_SLUGS } from "@/lib/site-data";
+import { buildAlternates, type SiteLocale } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -12,7 +13,11 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "UseCasesPage.meta" });
-  return { title: t("title"), description: t("description") };
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: buildAlternates("/use-cases", locale as SiteLocale),
+  };
 }
 
 export default async function UseCasesPage({

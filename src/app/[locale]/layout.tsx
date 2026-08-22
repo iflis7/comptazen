@@ -8,6 +8,7 @@ import {
 } from "next-intl/server";
 import { Archivo, IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
 import { routing } from "@/i18n/routing";
+import { buildAlternates, localizedUrl, type SiteLocale } from "@/lib/seo";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
@@ -42,7 +43,11 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Home.meta" });
-  return { title: t("title"), description: t("description") };
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: buildAlternates("/", locale as SiteLocale),
+  };
 }
 
 export default async function LocaleLayout({
@@ -60,6 +65,27 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
 
   const messages = await getMessages();
+  const tMeta = await getTranslations({ locale, namespace: "Home.meta" });
+
+  // Organization structured data — kept deliberately minimal and honest:
+  // only facts that are actually true today (name, url, contact, founder,
+  // service area). No fabricated address, phone, or review data.
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    name: "ComptaZen",
+    url: localizedUrl("/", locale as SiteLocale),
+    description: tMeta("description"),
+    email: "info@comptazen.digital",
+    areaServed: {
+      "@type": "AdministrativeArea",
+      name: "Québec, Canada",
+    },
+    founder: {
+      "@type": "Person",
+      name: "Hafid Saadi",
+    },
+  };
 
   return (
     <html
@@ -68,6 +94,11 @@ export default async function LocaleLayout({
       className={`${archivo.variable} ${plexSans.variable} ${plexMono.variable}`}
     >
       <body className="flex min-h-screen flex-col bg-[var(--color-background)] antialiased">
+        <script
+          type="application/ld+json"
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider
             attribute="class"

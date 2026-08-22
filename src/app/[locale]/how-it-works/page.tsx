@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { ProcessTimelineAnimation } from "@/components/process-timeline-animation";
+import { buildAlternates, type SiteLocale } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -14,7 +15,11 @@ export async function generateMetadata({
     locale,
     namespace: "HowItWorksPage.meta",
   });
-  return { title: t("title"), description: t("description") };
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: buildAlternates("/how-it-works", locale as SiteLocale),
+  };
 }
 
 export default async function HowItWorksPage({

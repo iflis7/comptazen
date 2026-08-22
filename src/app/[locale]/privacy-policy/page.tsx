@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { buildAlternates, type SiteLocale } from "@/lib/seo";
 
 type Section = { title: string; body: string };
 
@@ -10,7 +11,11 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "PrivacyPolicy.meta" });
-  return { title: t("title"), description: t("description") };
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: buildAlternates("/privacy-policy", locale as SiteLocale),
+  };
 }
 
 export default async function PrivacyPolicyPage({
