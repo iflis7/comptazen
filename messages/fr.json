@@ -275,12 +275,46 @@
     },
     "kicker": "CAS D'USAGE",
     "h1": "Voyez-le fonctionner, ne vous contentez pas d'en entendre parler.",
-    "intro": "Chaque démo ci-dessous fonctionne en direct dans votre navigateur — modifiez les données d'exemple et regardez le résultat se recalculer en temps réel. Ce sont des versions simplifiées de la vraie logique, pas des captures d'écran ni des animations scriptées : l'idée est de montrer à quoi ressemble concrètement la Couche 02 — Automatisation — une fois que le Travail a déjà révélé ce qui vaut la peine d'être construit.",
+    "intro": "Chaque démo ci-dessous fonctionne en direct dans votre navigateur — modifiez les données d'exemple et regardez le résultat se recalculer en temps réel. Ce sont des versions simplifiées de la vraie logique, pas des captures d'écran ni des animations scriptées — le genre de preuve que je peux vous montrer avant même que vous soyez client, pas après.",
     "tryLabel": "ESSAYEZ",
     "seePricingLink": "VOIR LE PRIX ET LA PORTÉE →",
+    "seeContactLink": "PARLONS DE VOTRE MIGRATION →",
     "cta": "Réservez un appel de découverte gratuit pour voir lequel correspond à votre entreprise"
   },
+  "UseCases": {
+    "migration-acomba-qbo": {
+      "name": "Migrer d'Acomba vers QuickBooks Online",
+      "description": "Un remappage complet du plan comptable et une migration des soldes d'ouverture entre les deux plateformes comptables que la plupart des PME québécoises utilisent réellement — la même vérification de balance que je ferais avant toute vraie mise en service."
+    },
+    "invoice-ap-automation": {
+      "name": "Automatisation des factures et comptes fournisseurs",
+      "description": "Quelqu'un dans votre équipe entre manuellement les données de factures, relance les approbations par courriel ou Slack, puis ressaisit les mêmes chiffres dans votre logiciel comptable."
+    },
+    "bank-reconciliation-automation": {
+      "name": "Automatisation bancaire et du rapprochement",
+      "description": "Rapprocher manuellement les transactions bancaires et de carte de crédit avec vos livres est lent, sujet aux erreurs, et la principale raison pour laquelle la clôture de fin de mois s'éternise."
+    },
+    "ar-collections-automation": {
+      "name": "Automatisation des comptes clients et recouvrements",
+      "description": "Être payé à temps ne devrait pas dépendre du fait que quelqu'un se souvienne de relancer. Les relances manuelles mènent à un suivi inégal et à des liquidités qui dorment trop longtemps dans les comptes de vos clients."
+    },
+    "quebec-gst-qst-compliance": {
+      "name": "Automatisation de la conformité TPS/TVQ",
+      "description": "Les calculs de versement, les échéances de déclaration et la conservation des documents selon les règles particulières de Revenu Québec forment un casse-tête distinct de la tenue de livres générale — et presque personne ne conçoit d'automatisation spécifiquement pour cela."
+    }
+  },
   "UseCaseDemos": {
+    "migration-acomba-qbo": {
+      "blurb": "Modifiez n'importe quel solde d'ouverture ci-dessous — la vérification de la balance se met à jour en direct, exactement comme pour valider une vraie migration avant sa mise en service.",
+      "acombaHeader": "ACOMBA (SOURCE)",
+      "balanceHeader": "SOLDE D'OUVERTURE",
+      "qboHeader": "QUICKBOOKS ONLINE (MAPPÉ)",
+      "totalAssets": "TOTAL DE L'ACTIF",
+      "totalLiabEquity": "TOTAL PASSIF + CAPITAUX PROPRES",
+      "trialBalance": "BALANCE DE VÉRIFICATION",
+      "tiesOut": "Balance équilibrée — prête pour la mise en service",
+      "offBy": "Écart de"
+    },
     "invoice-ap-automation": {
       "blurb": "Collez ou modifiez le texte d'une facture ci-dessous — les champs à droite s'extraient d'eux-mêmes pendant que vous tapez.",
       "textareaLabel": "TEXTE DE LA FACTURE",

@@ -275,12 +275,46 @@
     },
     "kicker": "USE CASES",
     "h1": "See it work, not just hear about it.",
-    "intro": "Every demo below runs live in your browser — edit the sample data and watch it recompute in real time. These are simplified stand-ins for the real logic, not screenshots or scripted animations: the point is to show what Layer 02 — Automation — actually looks like once Work has already surfaced what's worth building.",
+    "intro": "Every demo below runs live in your browser — edit the sample data and watch it recompute in real time. These are simplified stand-ins for the real logic, not screenshots or scripted animations — the kind of proof I can put in front of you before you're a client, not after.",
     "tryLabel": "TRY IT",
     "seePricingLink": "SEE PRICING & SCOPE →",
+    "seeContactLink": "TALK ABOUT YOUR MIGRATION →",
     "cta": "Book a free discovery call to see which of these fits your business"
   },
+  "UseCases": {
+    "migration-acomba-qbo": {
+      "name": "Migrating off Acomba, onto QuickBooks Online",
+      "description": "A full chart-of-accounts remap and opening-balance migration between the two accounting platforms most Quebec SMEs actually run — the same trial-balance check I'd run before any real cutover."
+    },
+    "invoice-ap-automation": {
+      "name": "Invoice & AP Automation",
+      "description": "Someone on your team is manually entering invoice data, chasing approvals over email or Slack, then re-entering the same numbers into your accounting software."
+    },
+    "bank-reconciliation-automation": {
+      "name": "Bank & Reconciliation Automation",
+      "description": "Matching bank and credit card transactions against your books by hand is slow, error-prone, and the main reason month-end close drags on."
+    },
+    "ar-collections-automation": {
+      "name": "AR & Collections Automation",
+      "description": "Getting paid on time shouldn't depend on someone remembering to follow up. Manual chasing means inconsistent follow-through and cash sitting in other people's accounts longer than it should."
+    },
+    "quebec-gst-qst-compliance": {
+      "name": "Quebec GST/QST Compliance Automation",
+      "description": "Remittance calculations, filing deadlines, and document retention for Revenu Québec's specific rules are a distinct headache from general bookkeeping — and almost nobody builds automation specifically for it."
+    }
+  },
   "UseCaseDemos": {
+    "migration-acomba-qbo": {
+      "blurb": "Edit any opening balance below — the trial balance check updates live, exactly like verifying a real migration before it goes live.",
+      "acombaHeader": "ACOMBA (SOURCE)",
+      "balanceHeader": "OPENING BALANCE",
+      "qboHeader": "QUICKBOOKS ONLINE (MAPPED)",
+      "totalAssets": "TOTAL ASSETS",
+      "totalLiabEquity": "TOTAL LIABILITIES + EQUITY",
+      "trialBalance": "TRIAL BALANCE",
+      "tiesOut": "Ties out — safe to go live",
+      "offBy": "Off by"
+    },
     "invoice-ap-automation": {
       "blurb": "Paste or edit invoice text below — the fields on the right extract themselves as you type.",
       "textareaLabel": "INVOICE TEXT",

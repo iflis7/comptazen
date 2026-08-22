@@ -24,11 +24,10 @@ export const LAYER_SLUGS = [
 
 export type LayerSlug = (typeof LAYER_SLUGS)[number];
 
-// Keys into the "Services" namespace — the four concrete automation demos
-// (invoice/AP, bank reconciliation, AR/collections, Quebec GST/QST). These
-// live under the Automation layer conceptually, but aren't priced or sold
-// as standalone entries anymore — they're the live, interactive proof
-// shown on /use-cases, linking back to the Automation layer on /services.
+// Keys into the (now orphaned, kept for reference) "Services" namespace —
+// the four concrete automation demos (invoice/AP, bank reconciliation,
+// AR/collections, Quebec GST/QST). These live under the Automation layer
+// conceptually, but aren't priced or sold as standalone entries anymore.
 export const SERVICE_SLUGS = [
   "invoice-ap-automation",
   "bank-reconciliation-automation",
@@ -38,11 +37,20 @@ export const SERVICE_SLUGS = [
 
 export type ServiceSlug = (typeof SERVICE_SLUGS)[number];
 
-// The services that get a live interactive demo on /use-cases — currently
-// all of them.
-export const USE_CASE_SLUGS = SERVICE_SLUGS;
+// /use-cases is a capability portfolio, not a 1:1 mirror of SERVICE_SLUGS —
+// some demos prove a capability that isn't a priced /services SKU at all
+// (the Acomba -> QBO migration is the first one). Copy for each entry
+// lives in the "UseCases" namespace (name/description) plus
+// "UseCaseDemos" (the interactive widget's own labels and sample data).
+// Ordered as displayed: the migration demo leads — it's the hardest,
+// most novel proof — followed by the four automation demos, which still
+// genuinely tie back to the Automation layer on /services.
+export const USE_CASE_SLUGS = [
+  "migration-acomba-qbo",
+  ...SERVICE_SLUGS,
+] as const;
 
-export type UseCaseSlug = ServiceSlug;
+export type UseCaseSlug = (typeof USE_CASE_SLUGS)[number];
 
 // Keys into the "SelfHosted" namespace.
 export const SELF_HOSTED_KEYS = ["data", "cost", "fit", "audit"] as const;

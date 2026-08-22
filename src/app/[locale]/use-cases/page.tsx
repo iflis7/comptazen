@@ -29,7 +29,7 @@ export default async function UseCasesPage({
   setRequestLocale(locale);
 
   const t = await getTranslations("UseCasesPage");
-  const tServices = await getTranslations("Services");
+  const tUseCases = await getTranslations("UseCases");
   const tDemos = await getTranslations("UseCaseDemos");
 
   return (
@@ -58,26 +58,38 @@ export default async function UseCasesPage({
                 {String(i + 1).padStart(2, "0")}
               </span>
               <h2 className="font-display mt-3 text-2xl font-medium text-[var(--color-ink)] sm:text-3xl">
-                {tServices(`${slug}.name`)}
+                {tUseCases(`${slug}.name`)}
               </h2>
               <p className="mt-3 max-w-2xl text-sm leading-relaxed text-[var(--color-ink-muted)]">
-                {tDemos(`${slug}.blurb`)}
+                {tUseCases(`${slug}.description`)}
               </p>
 
               <div className="mt-6">
                 <p className="mb-2 font-mono text-[10px] tracking-[0.14em] text-[var(--color-ink-faint)]">
                   {t("tryLabel")}
                 </p>
+                <p className="mb-3 max-w-2xl text-xs leading-relaxed text-[var(--color-ink-faint)]">
+                  {tDemos(`${slug}.blurb`)}
+                </p>
                 <UseCaseDemo slug={slug} />
               </div>
 
               <div className="mt-5">
-                <Link
-                  href="/services#automation"
-                  className="font-mono text-xs tracking-[0.06em] text-[var(--color-accent)] hover:underline"
-                >
-                  {t("seePricingLink")}
-                </Link>
+                {slug === "migration-acomba-qbo" ? (
+                  <Link
+                    href="/contact"
+                    className="font-mono text-xs tracking-[0.06em] text-[var(--color-accent)] hover:underline"
+                  >
+                    {t("seeContactLink")}
+                  </Link>
+                ) : (
+                  <Link
+                    href="/services#automation"
+                    className="font-mono text-xs tracking-[0.06em] text-[var(--color-accent)] hover:underline"
+                  >
+                    {t("seePricingLink")}
+                  </Link>
+                )}
               </div>
             </article>
           ))}
